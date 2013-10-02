@@ -14,11 +14,11 @@ $(document).ready(function () {
 	parallax.add($("#slide1"))
 			.add($("#slide2"))
 			.add($("#slide3"))
-			/*.add($("#slide4"))
+			.add($("#slide4"))
 			.add($("#slide5"))
 			.add($("#slide6"))
 			.add($("#slide7"))
-			.add($("#slide8"))*/;
+			.add($("#slide8"));
 			
 	parallax.background = $("body");
 	
@@ -40,7 +40,7 @@ $(document).ready(function () {
 		setBottom("slide2", "tige");
 	};
 
-	/*parallax.slide4.onload=function(){
+	parallax.slide4.onload=function(){
 		setTop("slide5", "slide5");
 		setBottom("slide3", "slide3");
 	};
@@ -62,7 +62,7 @@ $(document).ready(function () {
 	
 	parallax.slide8.onload=function(){
 		setBottom("slide7", "slide7");
-	};*/
+	};
 	
 	function setTop(page, text){
 		$("#seed").show().unbind('click').click(function(){

@@ -30,8 +30,6 @@
 .bloc{position:relative; margin:0; padding:0; width:100%;}
 .max{position:relative; width:1140px; margin-left:auto; margin-right:auto; }
 
-
-
 /* BLOC 3 */
 .bloc3 {height:5063px;}
 .content3{top:0px; width:1140px; height:5063px;}
@@ -305,14 +303,11 @@
 	font-size:40px;
 }
 
-
-
-
-
-
 /* BLOC 1 */
 .bloc1 { background:url(../images/haut-raiz.png), url(../images/tierra.png); background-repeat:no-repeat, repeat; background-position: top, right; height:1678px;}
 .content1{top:0px; width:1140px; height:1678px;}
+
+.raizbgd { background: url(../images/tierra.png); background-repeat: repeat; background-position: top, right; height:1678px;}
 
 #raiz{
 	left:591px;
