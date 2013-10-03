@@ -18,7 +18,11 @@ $(document).ready(function () {
 			.add($("#slide5"))
 			.add($("#slide6"))
 			.add($("#slide7"))
-			.add($("#slide8"));
+			.add($("#slide8"))
+			.add($("#slide9"))
+			.add($("#slide10"))
+			.add($("#slide11"))
+			.add($("#slide12"));
 			
 	parallax.background = $("body");
 	
@@ -61,7 +65,27 @@ $(document).ready(function () {
 	};	
 	
 	parallax.slide8.onload=function(){
+		setTop("slide9", "slide8");
 		setBottom("slide7", "slide7");
+	};
+	
+	parallax.slide9.onload=function(){
+		setTop("slide10", "slide8");
+		setBottom("slide8", "slide7");
+	};
+	
+	parallax.slide10.onload=function(){
+		setTop("slide11", "slide8");
+		setBottom("slide9", "slide7");
+	};
+	
+	parallax.slide11.onload=function(){
+		setTop("slide12", "slide8");
+		setBottom("slide10", "slide7");
+	};
+	
+	parallax.slide12.onload=function(){
+		setBottom("slide11", "slide7");
 	};
 	
 	function setTop(page, text){
