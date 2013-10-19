@@ -1,0 +1,545 @@
+@media screen and (min-width: 1920px) and (max-width: 2560px) {
+
+#tronco3{
+	right:20%;
+}
+
+#tronco2{
+	right:26%;
+}
+
+#tronco1{
+	right:20%;
+}
+
+}
+
+@media screen and (min-width: 1800px) and (max-width: 1824px) {
+	
+#go2 {
+	left:41%;
+	top:78.5%;
+}
+
+#tronco3{
+	right:15%;
+}
+
+#tronco2{
+	right:23%;
+}
+
+#phrase2 {
+	width:46%;
+}
+
+#go2 {
+	left:56%;
+	top:72.5%;
+}
+
+#aqui {
+	right:14.5%;
+}
+
+}
+
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+
+#tronco3{
+	right:5%;
+}
+	
+#tronco2{
+	right:20%;
+}	
+
+.content{
+	width:100%;
+}
+
+#bloc7{
+	width:80%; 
+}
+
+#bloc6{
+	width:100%;
+}
+
+#bloc5{
+	width:100%;
+}
+
+#bloc4{
+	width:55%;
+}
+
+#bloc3{
+	width:100%;
+}
+
+#bloc2{
+	width:100%;
+}
+
+#bloc1{
+	width:100%;
+}
+
+#phrase2 {
+	right:45%;
+}
+
+#experiencias {
+	top:30%;
+}
+
+#instrumento {
+	right:33%;
+	font-size:3em;
+}
+
+#texte-about {
+	left: 18%;
+}
+
+#CV {
+	right: 21%;
+}
+
+#slide5-CV{
+	right: 31.7%;
+}
+
+#go5{
+	left: 50%;
+}
+
+#isabellabeau {
+	left:18%;	
+}
+
+#logotexte {
+	left:16.5%;
+}
+
+#raiz-tronco-01 {
+	position:absolute;
+	left:134px;
+	top:175px;
+	z-index:20;
+}
+
+#raiz-tronco-02 {
+	position:absolute;
+	left:40px;
+	top:508px;
+	z-index:20;
+}
+
+#raiz-tronco-03 {
+	position:absolute;
+	left:191px;
+	top:689px;
+	z-index:20;
+}
+
+#crecer {
+	left:20%;
+	top:969px;
+	color:#603362;
+	font-size:4.3em;
+	text-align:center;
+	width:58%;
+	z-index:20;
+}
+
+#interior {
+	right:42%;
+	z-index:30;
+}
+
+#avion {
+	left:152px;
+	top:364px;
+}
+
+#ligne-points {
+	left:157px;
+	top:421px;
+}
+
+#viajo {
+	right:47%;
+}
+
+#imagination {
+	right:45%;
+}
+
+#aqui {
+	right:29.5%;
+}
+
+#idea {
+	right:35%;
+}
+
+#fija {
+	left:19%;
+}
+
+#sueno {
+	left:27%;
+}
+
+}
+
+
+@media screen and (min-width: 981px) and (max-width: 1023px) {
+	
+#bloc7{
+	width:100%; 
+}
+
+#bloc6{
+	width:100%;
+}
+
+#bloc5{
+	width:100%;
+}
+
+#bloc4{
+	width:100%;
+}
+
+#bloc3{
+	width:100%;
+}
+
+#bloc2{
+	width:100%;
+}
+
+#bloc1{
+	width:100%;
+}
+
+#follow-me {
+	left:10%;
+}
+
+#pinterest {
+	left:18%;
+}
+
+#myblog {
+	left:22%;
+}
+
+#emailme {
+	left:26%;
+}
+
+#facebook {
+	left:30%;
+}
+
+#twitter {
+	left:34%;
+}
+
+#credits {
+	right:15%;
+}
+
+#textecredits {
+	right:8%;
+}
+
+#logoisabellabeau {
+	left:8%;
+}
+
+#logotexte {
+	left:13.5%;
+}
+
+#phrase2 {
+	font-size:4em;
+	width:47%;
+	left:19%;
+}
+
+#go2 {
+	top:66%;
+}
+
+#texte-about {
+	left:21%;
+	width:60%;
+}
+
+#titre-aboutme {
+	left:42%;
+}
+
+#titre2 {
+	left:44%;
+}
+
+#CV {
+	right:14.5%;
+}
+
+#slide5-CV {
+	right:28.8%;
+}
+
+#go5 {
+	top:85%;
+}
+
+#esencia {
+	right:42%;
+}
+
+#instrumento {
+	right:37%;
+	font-size:3.2em;
+}
+
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 980px) {
+
+#bloc7{
+	width:100%; 
+}
+
+#bloc6{
+	width:100%;
+}
+
+#bloc5{
+	width:100%;
+}
+
+#bloc4{
+	width:100%;
+}
+
+#bloc3{
+	width:100%;
+}
+
+#bloc2{
+	width:100%;
+}
+
+#bloc1{
+	width:100%;
+}
+
+#follow-me {
+	left:6%;
+}
+
+#tronco3{
+	right:1%;
+}
+
+.rosa{
+	font-size:3em;
+}
+
+#pinterest {
+	left:6%;
+}
+
+#myblog {
+	left:12%;
+}
+
+#emailme {
+	left:18%;
+}
+
+#facebook {
+	left:24%;
+}
+
+#twitter {
+	left:30%;
+}
+
+#credits {
+	right:8%;
+}
+
+#textecredits {
+	right:3%;
+	width:40%;
+}
+
+#logoisabellabeau {
+	left:6%;
+	top:93%;
+}
+
+#logotexte {
+	left:13.5%;
+	top:95%;
+}
+
+#phrase2 {
+	font-size:3.5em;
+	width:42%;
+	left:10%;
+	top:15%;
+}
+
+#go2 {
+	top:65.5%;
+	left:27%;
+}
+
+#texte-about {
+	left:14%;
+	width:72%;
+}
+
+#isabellabeau {
+	left:14%;
+}
+
+#titre-aboutme {
+	left:42%;
+}
+
+#titre2 {
+	left:44%;
+}
+
+#CV {
+	right:5.5%;
+}
+
+#slide5-CV {
+	right:28.8%;
+}
+
+#go5 {
+	top:90%;
+	left: 50%;
+}
+
+#esencia {
+	right:60%;
+}
+
+#instrumento {
+	right:53%;
+	font-size:2.4em;
+	width:35%;
+}
+
+#experiencias {
+	right:47%;
+	font-size:3.5em;
+}
+
+.portfolio li { 
+		width:50%;		
+	}
+#filter li {
+	width:50%;
+}
+
+.project1{
+	width: 420px;
+	height:280px;
+}
+
+.container .one-third.column{ 
+	width: 236px; 
+}
+
+}
+
+
+/* Smartphones (portrait and landscape) */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+#profile h1:before {  
+    width: 300px;
+	left:0;  
+}  
+
+#gallery h1:before {  
+    width: 300px; 
+	left:0; 
+}
+
+.portfolio li { 
+		width:100%;		
+	}
+
+#gallery h3{
+	 font-size: 26px;
+	 line-height: 30px;
+} 
+
+#filter li {
+	width:100%;
+}
+
+.project1{
+	width: 300px;
+	height:200px;
+}	
+
+.container .one-third.column{ 
+	width: 80%; 
+}
+
+}
+
+/* Smartphones (landscape) */
+@media only screen
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) */
+@media only screen
+and (max-width : 320px) {
+.project a .pro-title h6{
+	font-size: 26px;
+}
+.project a .pro-image img{
+	width: 200px;
+	height:200px;
+}
+	.portfolio li { 
+		width:100%;		
+	}
+#gallery h3{
+	 font-size: 18px;
+	 line-height: 24px;
+}
+#filter li {
+	width:100%;
+}
+
+.project1{
+	width: 220px;
+	height:147px;
+}
+}
