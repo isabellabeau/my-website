@@ -61,34 +61,6 @@
 	width:100%;
 }
 
-#bloc7{
-	width:80%; 
-}
-
-#bloc6{
-	width:100%;
-}
-
-#bloc5{
-	width:100%;
-}
-
-#bloc4{
-	width:55%;
-}
-
-#bloc3{
-	width:100%;
-}
-
-#bloc2{
-	width:100%;
-}
-
-#bloc1{
-	width:100%;
-}
-
 #phrase2 {
 	right:45%;
 }
@@ -200,34 +172,6 @@
 
 
 @media screen and (min-width: 981px) and (max-width: 1023px) {
-	
-#bloc7{
-	width:100%; 
-}
-
-#bloc6{
-	width:100%;
-}
-
-#bloc5{
-	width:100%;
-}
-
-#bloc4{
-	width:100%;
-}
-
-#bloc3{
-	width:100%;
-}
-
-#bloc2{
-	width:100%;
-}
-
-#bloc1{
-	width:100%;
-}
 
 #follow-me {
 	left:10%;
@@ -317,34 +261,6 @@
 
 
 @media screen and (min-width: 641px) and (max-width: 980px) {
-
-#bloc7{
-	width:100%; 
-}
-
-#bloc6{
-	width:100%;
-}
-
-#bloc5{
-	width:100%;
-}
-
-#bloc4{
-	width:100%;
-}
-
-#bloc3{
-	width:100%;
-}
-
-#bloc2{
-	width:100%;
-}
-
-#bloc1{
-	width:100%;
-}
 
 #follow-me {
 	left:6%;
