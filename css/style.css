@@ -76,13 +76,15 @@ a, a:visited{
 
 .slides{ height: 1000px; padding: 0; margin: 0; width: 100%; position: relative; margin: 0 auto;}
 
+.slide3{ height: 1000px; padding: 0; margin: 0; width: 100%; position: relative; margin: 0 auto;}
+
 .smallslides{ height: 722px; padding: 0; margin: 0; width: 100%; position: relative; margin: 0 auto;}
 
 #seventh { background: url(../images/fond7.png) 50% 0 no-repeat; }
 #sixth { background: url(../images/fond6.png) 50% 0 no-repeat; }
 #fifth { background: url(../images/fond5.png) 50% 0 no-repeat; }
 #fourth { background: url(../images/fond4.png) 50% 0 no-repeat; }
-#third { background: url(../images/fond3.png) 50% 0 no-repeat; }
+#third { background: url(../images/fond3.png) 50% 0 no-repeat #d2c608; }
 #second  { background: url(../images/fond2.png) 50% 0 no-repeat; }
 #first { background: url(../images/fond1.jpg) 50% bottom no-repeat; }
 
@@ -471,7 +473,7 @@ SLIDE 5
 	position:absolute;
 	right:11.7%;
 	top:36%;
-	width:109px;
+	width:115px;
 	font-family: Arial, Helvetica, sans-serif;
 	color:#FFF;
 }
