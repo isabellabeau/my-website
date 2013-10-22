@@ -14,10 +14,7 @@
 
 }
 
-
-
-
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1030px) and (max-width: 1280px) {
 
 #tronco3{
 	right:5%;
@@ -25,6 +22,10 @@
 	
 #tronco2{
 	right:20%;
+}	
+
+#tronco1{
+	right:12%;
 }	
 
 .content{
@@ -40,7 +41,7 @@
 }
 
 #instrumento {
-	right:33%;
+	right:38%;
 }
 
 #texte-about {
@@ -95,7 +96,7 @@
 }
 
 #interior {
-	right:42%;
+	right:35%;
 	z-index:30;
 }
 
@@ -118,7 +119,7 @@
 }
 
 #aqui {
-	left:62%;
+	left:60%;
 }
 
 #idea {
@@ -135,6 +136,54 @@
 
 }
 
+@media screen and (max-width: 1024px) {
+#imagination {
+	right:47%;
+}
+	
+#tronco3{
+	right:0;
+}
+	
+	
+#aqui {
+	left:53%;
+}
+
+#sueno {
+	left:22%;
+}
+
+#viajo {
+	right:52%;
+	width:47%;
+}
+
+#llevar {
+	right:41%;
+	font-size:2em;
+	width:27%;
+}
+
+#interior {
+	right:44%;
+	font-size:3.4em;
+}
+
+#imagenes {
+	font-size:2.2em;
+	left:6%;
+}	
+
+#instrumento {
+	right:50%;
+}
+
+#esencia {
+	right:54%;
+}
+
+}
 
 @media screen and (min-width: 981px) and (max-width: 1023px) {
 

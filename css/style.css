@@ -182,6 +182,7 @@ SLIDE 2
 	font-size:3.7em;
 	text-align:center;
 	width:40%;
+	z-index:40;
 }
 
 #avion {
