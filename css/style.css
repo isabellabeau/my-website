@@ -163,22 +163,22 @@ SLIDE 2
 }
 
 #tangible {
-	left:281px;
-	top:109px;
+	left:12%;
+	top:10%;
 	font-size:2.8em;
 }
 
 #imagenes {
 	left:121px;
 	top:268px;
-	font-size:2em;
+	font-size:2.5em;
 	text-align:right;
 }
 
 #interior {
-	right:30%;
+	right:22%;
 	top:435px;
-	font-size:3.2em;
+	font-size:3.7em;
 	text-align:center;
 	width:40%;
 }
@@ -194,20 +194,20 @@ SLIDE 2
 }
 
 #viajo {
-	right:30%;
-	top:75%;
+	right:34%;
+	top:73%;
 	font-size:2.6em;
-	width:40%;
+	width:54%;
 }
 
 #llevar {
-	right:42%;
+	right:31%;
 	top:64%;
 	font-size:2.3em;
 }
 
 #imagination {
-	right:28%;
+	right:12%;
 	top:80%;
 	font-size:2.5em;
 	width:400px;
