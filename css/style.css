@@ -68,7 +68,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 #tronco1{
 	position:absolute;
 	right:20%;
-	top:4100px;
+	top:4068px;
 	width:326px;
 	height:1422px;
 	background: url(../images/raiz-tronco.png) no-repeat scroll 0px 100% transparent;
@@ -382,23 +382,23 @@ SLIDE 4
 }
 
 #esencia {
-	right:46%;
+	right:33%;
 	top:15%;
 	font-size:4.5em;
 }
 
 #experiencias {
 	right:35%;
-	top:46%;
-	font-size:3.5em;
+	top:41%;
+	font-size:4.5em;
 	text-align:center;
-	width:50%;
+	width:60%;
 }
 
 #instrumento {
-	right:45%;
+	right:29%;
 	top:74%;
-	font-size:2.5em;
+	font-size:3.2em;
 }
 
 

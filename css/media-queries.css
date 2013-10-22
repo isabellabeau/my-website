@@ -1,25 +1,4 @@
-@media screen and (min-width: 1920px) and (max-width: 2560px) {
-
-#tronco3{
-	right:20%;
-}
-
-#tronco2{
-	right:26%;
-}
-
-#tronco1{
-	right:20%;
-}
-
-}
-
 @media screen and (min-width: 1800px) and (max-width: 1824px) {
-	
-#go2 {
-	left:41%;
-	top:78.5%;
-}
 
 #tronco3{
 	right:15%;
@@ -31,11 +10,6 @@
 
 #phrase2 {
 	width:46%;
-}
-
-#go2 {
-	left:56%;
-	top:72.5%;
 }
 
 #aqui {
