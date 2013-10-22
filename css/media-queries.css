@@ -260,6 +260,7 @@
 
 #textecredits {
 	left:2%;
+	font-size:0.9em;
 }
 
 #logoisabellabeau {
@@ -268,6 +269,7 @@
 
 #logotexte {
 	left:7.5%;
+	font-size:0.8em;
 }
 
 #phrase2 {
@@ -278,8 +280,8 @@
 }
 
 #go2 {
-	top:65.5%;
-	left:27%;
+	top:63.5%;
+	left:36%;
 }
 
 #texte-about {
@@ -336,7 +338,28 @@
 
 #tronco1{
 	right:0;
-	height:1422px;
+	top:4167px;
+}
+
+#crecer{
+	font-size:3.3em;
+}
+
+#fija{
+	left:20%;
+}
+
+#sueno{
+	left:15%;	
+}
+
+#idea{
+	right:25%;
+}
+
+#aqui{
+	left:61%;
+	font-size:2em;
 }
 
 }
