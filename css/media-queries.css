@@ -211,20 +211,13 @@
 	left:34%;
 }
 
-#credits {
-	right:15%;
-}
-
-#textecredits {
-	right:8%;
-}
 
 #logoisabellabeau {
-	left:8%;
+	left:2%;
 }
 
 #logotexte {
-	left:13.5%;
+	left:5.5%;
 }
 
 #phrase2 {
@@ -277,7 +270,7 @@
 @media screen and (min-width: 641px) and (max-width: 980px) {
 
 #follow-me {
-	left:6%;
+	left:2%;
 }
 
 #tronco3{
@@ -289,42 +282,39 @@
 }
 
 #pinterest {
-	left:6%;
+	left:22%;
 }
 
 #myblog {
-	left:12%;
+	left:7%;
 }
 
 #emailme {
-	left:18%;
+	left:2%;
 }
 
 #facebook {
-	left:24%;
+	left:12%;
 }
 
 #twitter {
-	left:30%;
+	left:17%;
 }
 
 #credits {
-	right:8%;
+	left:2%;
 }
 
 #textecredits {
-	right:3%;
-	width:40%;
+	left:2%;
 }
 
 #logoisabellabeau {
-	left:6%;
-	top:93%;
+	left:2%;
 }
 
 #logotexte {
-	left:13.5%;
-	top:95%;
+	left:7.5%;
 }
 
 #phrase2 {
@@ -348,20 +338,12 @@
 	left:14%;
 }
 
-#titre-aboutme {
-	left:42%;
-}
-
-#titre2 {
-	left:44%;
-}
-
 #CV {
-	right:5.5%;
+	right:14.5%;
 }
 
 #slide5-CV {
-	right:28.8%;
+	right:26.8%;
 }
 
 #go5 {
@@ -380,8 +362,9 @@
 }
 
 #experiencias {
-	right:47%;
-	font-size:3.5em;
+	right:41%;
+	font-size:3.6em;
+	width:47%;
 }
 
 .portfolio li { 
@@ -398,6 +381,14 @@
 
 .container .one-third.column{ 
 	width: 236px; 
+}
+
+#tronco2{
+	right:18%;
+}
+
+#tronco1{
+	right:2%;
 }
 
 }
