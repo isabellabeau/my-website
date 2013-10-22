@@ -413,14 +413,14 @@ SLIDE 5
 }
 
 #go5 {
-	left:45%;
+	left:51%;
 	top:86%;
 	z-index:2;
 }
 
 #texte-about {
 	left:15%;
-	width:61%;
+	width:74%;
 	top:42%;
 	font-size:1.3em;
 	text-align:justify;
@@ -436,7 +436,7 @@ SLIDE 5
 }
 
 #titre-aboutme {
-	left:35.5%;
+	left:37.5%;
 	top:20%;
 	text-transform: uppercase;
 	font-size:1.8em;
@@ -446,7 +446,7 @@ SLIDE 5
 
 #slide5-CV {
 	position:absolute;
-	right:33.7%;
+	right:23.7%;
 	top:36.1%;
 }
 
@@ -460,7 +460,7 @@ SLIDE 5
 
 #CV {
 	position:absolute;
-	right:18.7%;
+	right:11.7%;
 	top:36%;
 	width:109px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -525,7 +525,7 @@ SLIDE 6
 
 #phrase2 {
 	font-size:5em;
-	width:39%;
+	width:45%;
 	right:40%;
 	top:12%;
 }
