@@ -48,7 +48,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 #tronco3{
 	position:absolute;
 	right:20%;
-	top:547px;
+	top:270px;
 	width:547px;
 	height:1214px;
 	background: url(../images/tronco-house.png) no-repeat scroll 0px 100% transparent;
@@ -57,8 +57,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 #tronco2{
 	position:absolute;
-	right:26%;
-	top:2408px;
+	right:27%;
+	top:2130px;
 	width:187px;
 	height:889px;
 	background: url(../images/tronco2.png) no-repeat scroll 0px 100% transparent;
@@ -68,7 +68,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 #tronco1{
 	position:absolute;
 	right:20%;
-	top:4410px;
+	top:4100px;
 	width:326px;
 	height:1422px;
 	background: url(../images/raiz-tronco.png) no-repeat scroll 0px 100% transparent;
@@ -541,7 +541,6 @@ SLIDE 7
 */
 
 #follow-me {
-	left:10%;
 	top:15%;
 	width:330px;
 }
@@ -577,13 +576,11 @@ SLIDE 7
 }
 
 #credits {
-	right:7%;
-	top:15%;
+	top:40%;
 }
 
 #textecredits {
-	right:1%;
-	top:22%;
+	top:48%;
 	font-size:1.1em;
 }
 
@@ -596,12 +593,11 @@ SLIDE 7
 }
 
 #logoisabellabeau {
-	left:10%;
 	top:90%;
 }
 
 #logotexte {
-	left:15%;
+	left:5.6%;
 	top:92%;
 }
 
