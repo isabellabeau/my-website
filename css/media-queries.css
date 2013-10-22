@@ -1,15 +1,11 @@
 @media screen and (min-width: 1800px) and (max-width: 1824px) {
 
-#tronco3{
-	right:15%;
-}
-
 #tronco2{
-	right:23%;
+	right:22%;
 }
 
-#phrase2 {
-	width:46%;
+#tronco1{
+	right:13%;
 }
 
 #aqui {
@@ -35,17 +31,16 @@
 	width:100%;
 }
 
-#phrase2 {
-	right:45%;
+#titre-aboutme {
+	left:40.5%;
 }
 
-#experiencias {
-	top:30%;
+#titre2 {
+	left:41%;
 }
 
 #instrumento {
 	right:33%;
-	font-size:3em;
 }
 
 #texte-about {
@@ -53,11 +48,11 @@
 }
 
 #CV {
-	right: 21%;
+	right: 8%;
 }
 
 #slide5-CV{
-	right: 31.7%;
+	right: 19.7%;
 }
 
 #go5{
@@ -66,10 +61,6 @@
 
 #isabellabeau {
 	left:18%;	
-}
-
-#logotexte {
-	left:16.5%;
 }
 
 #raiz-tronco-01 {
@@ -127,7 +118,7 @@
 }
 
 #aqui {
-	right:29.5%;
+	left:62%;
 }
 
 #idea {
