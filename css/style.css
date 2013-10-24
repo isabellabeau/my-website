@@ -46,7 +46,7 @@ a, a:visited{
 
 #tronco3{
 	position:absolute;
-	right:20%;
+	right:12%;
 	top:270px;
 	width:547px;
 	height:1214px;
@@ -56,7 +56,7 @@ a, a:visited{
 
 #tronco2{
 	position:absolute;
-	right:27%;
+	right:20%;
 	top:2130px;
 	width:187px;
 	height:889px;
@@ -66,7 +66,7 @@ a, a:visited{
 
 #tronco1{
 	position:absolute;
-	right:20%;
+	right:13%;
 	top:4068px;
 	width:326px;
 	height:1422px;
@@ -96,29 +96,29 @@ SLIDE 1
 
 
 #fija {
-	left:52%;
-	top:43%;
-	font-size:2.8em;
+	left:42%;
+	top:41%;
+	font-size:2.5em;
 }
 
 #sueno {
-	left:52%;
+	left:30%;
 	top:52%;
 	font-size:3.6em;
 }
 
 
 #idea {
-	right:8%;
+	right:16%;
 	top:66%;
 	font-size:3em;
 }
 
 #aqui {
-	left:85%;
+	left:65%;
 	top:79%;
 	font-size:2.5em;
-	width:200px;
+	width:270px;
 }
 
 #seed {
@@ -155,24 +155,24 @@ SLIDE 2
 }
 
 #crecer {
-	left:20%;
-	top:969px;
+	left:18%;
+	top:952px;
 	color:#603362;
-	font-size:4.3em;
+	font-size:3.1em;
 	text-align:center;
 	width:58%;
 	z-index:20;
 }
 
 #tangible {
-	left:12%;
+	left:8%;
 	top:10%;
-	font-size:2.8em;
+	font-size:2.6em;
 }
 
 #imagenes {
 	left:121px;
-	top:268px;
+	top:280px;
 	font-size:2.5em;
 	text-align:right;
 }
@@ -180,7 +180,7 @@ SLIDE 2
 #interior {
 	right:22%;
 	top:435px;
-	font-size:3.7em;
+	font-size:2.7em;
 	text-align:center;
 	width:40%;
 	z-index:40;
@@ -200,11 +200,11 @@ SLIDE 2
 	right:34%;
 	top:73%;
 	font-size:2.6em;
-	width:54%;
+	width:65%;
 }
 
 #llevar {
-	right:31%;
+	right:19%;
 	top:64%;
 	font-size:2.3em;
 }
@@ -212,8 +212,8 @@ SLIDE 2
 #imagination {
 	right:12%;
 	top:80%;
-	font-size:2.5em;
-	width:400px;
+	font-size:2em;
+	width:450px;
 }
 
 /*
@@ -401,7 +401,7 @@ SLIDE 4
 #experiencias {
 	right:35%;
 	top:41%;
-	font-size:4.5em;
+	font-size:3.5em;
 	text-align:center;
 	width:60%;
 }
@@ -410,6 +410,7 @@ SLIDE 4
 	right:29%;
 	top:74%;
 	font-size:3.2em;
+
 }
 
 
@@ -424,18 +425,19 @@ SLIDE 5
 }
 
 #go5 {
-	left:51%;
-	top:86%;
+	left:50%;
+	top:90%;
 	z-index:2;
 }
 
 #texte-about {
-	left:15%;
-	width:74%;
+	left:8%;
+	width:86%;
 	top:42%;
-	font-size:1.3em;
+	font-size:1em;
 	text-align:justify;
 	color:#c2a8c4;
+	line-height:25px;
 }
 
 #titre2 {
@@ -457,8 +459,8 @@ SLIDE 5
 
 #slide5-CV {
 	position:absolute;
-	right:23.7%;
-	top:36.1%;
+	right:24%;
+	top:35.8%;
 }
 
 #slide5-CV :hover{
@@ -471,11 +473,12 @@ SLIDE 5
 
 #CV {
 	position:absolute;
-	right:11.7%;
+	right:9.7%;
 	top:36%;
-	width:115px;
+	width:135px;
 	font-family: Arial, Helvetica, sans-serif;
 	color:#FFF;
+	font-size:0.8em;
 }
 
 #CV a:hover{
@@ -535,15 +538,14 @@ SLIDE 6
 }
 
 #phrase2 {
-	font-size:5em;
-	width:45%;
-	right:40%;
-	top:12%;
+	font-size:4.2em;
+	width:70%;
+	top:21%;
 }
 
 #go2 {
-	left:46%;
-	top:83.5%;
+	left:30%;
+	top:82.5%;
 	z-index:2;
 }
 
@@ -553,7 +555,7 @@ SLIDE 7
 
 #follow-me {
 	top:15%;
-	width:345px;
+	width:415px;
 }
 
 .rosa{
@@ -592,6 +594,7 @@ SLIDE 7
 #textecredits {
 	top:48%;
 	font-size:1.1em;
+	line-height: 25px;
 }
 
 .bleu{
