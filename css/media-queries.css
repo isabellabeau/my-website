@@ -15,8 +15,16 @@
 }
 
 @media screen and (min-width: 981px) and (max-width: 1024px) {
+#fija {
+	left:16%;
+}	
+	
 #imagination {
-	right:47%;
+	right:41%;
+}
+
+#idea {
+	right:46%;
 }
 	
 #tronco3{
@@ -25,40 +33,49 @@
 	
 	
 #aqui {
-	left:53%;
+	left:35%;
 }
 
 #sueno {
-	left:22%;
+	left:8%;
 }
 
 #viajo {
-	right:52%;
-	width:47%;
+	font-size:2.3em;
 }
 
 #llevar {
-	right:41%;
-	font-size:2em;
-	width:27%;
+	right:38%;
+	font-size:1.3em;
+	width:30%;
 }
 
 #interior {
-	right:44%;
-	font-size:3.4em;
+	right:40%;
+	font-size:2.5em;
 }
 
 #imagenes {
-	font-size:2.2em;
-	left:6%;
+	font-size:2em;
+	left:0;
 }	
 
 #instrumento {
-	right:50%;
+	right:42%;
+	font-size:3em;
 }
 
 #esencia {
 	right:54%;
+}
+
+#phrase2 {
+	font-size:4em;
+	width:60%;
+}
+
+#textecredits {
+	font-size:1em;
 }
 
 }
