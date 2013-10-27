@@ -15,6 +15,14 @@
 }
 
 @media screen and (min-width: 981px) and (max-width: 1024px) {
+#tronco2{
+	right:10%;
+}	
+	
+#tronco1{
+	right:0;
+}	
+
 #fija {
 	left:16%;
 }	
@@ -82,179 +90,150 @@
 
 
 @media screen and (min-width: 641px) and (max-width: 980px) {
-	
-#imagenes {
-	font-size:2.1em;
-	left:10%;
+#go5{
+	top:93%;
 }
+
+#texte-about{
+	font-size:0.9em;
+}
+	
+#slide5-CV{
+	right:22%;
+}
+	
+#CV{
+	right:3.7%;
+}	
+	
+#tronco2{
+	right:10%;
+}	
+	
+#tronco1{
+	right:0;
+}	
+
+#fija {
+	left:22%;
+}	
 	
 #imagination {
 	right:25%;
-	font-size:1.8em;
 }
 
-	
-#llevar {
-	font-size:1.7em;
+#idea {
+	right:40%;
 }
 	
+#tronco3{
+	right:0;
+}	
+	
+#aqui {
+	left:45%;
+}
+
+#sueno {
+	left:6%;
+}
+
 #viajo {
-	right:30%;
-	font-size:2em;
+	font-size:2.3em;
+	left:10%;
+}
+
+#llevar {
+	right:38%;
+	font-size:1.3em;
+	width:30%;
 }
 
 #interior {
-	right:36%;
+	right:35%;
+	font-size:2.5em;
+}
+
+#imagenes {
+	font-size:2em;
+	left:5%;
+}	
+
+#instrumento {
+	right:39%;
 	font-size:2.4em;
 }
 
-#tangible {
-	left:4%;
-	font-size:2em;
-}	
-	
-.slide3{
-	height: 1100px;
-}
-
-#follow-me {
-	left:2%;
-}
-
-#tronco3{
-	right:1%;
-}
-
-.rosa{
-	font-size:3em;
-}
-
-#pinterest {
-	left:22%;
-}
-
-#myblog {
-	left:7%;
-}
-
-#emailme {
-	left:2%;
-}
-
-#facebook {
-	left:12%;
-}
-
-#twitter {
-	left:17%;
-}
-
-#credits {
-	left:2%;
-}
-
-#textecredits {
-	left:2%;
-	font-size:0.9em;
-}
-
-#logoisabellabeau {
-	left:2%;
-}
-
-#logotexte {
-	left:7.5%;
-	font-size:0.8em;
+#esencia {
+	right:54%;
 }
 
 #phrase2 {
 	font-size:3.5em;
-	width:42%;
+	width:49%;
+	left:5%;
+}
+
+#textecredits {
+	font-size:0.9em;
+	left:4%;
+	top:32%;
+}
+
+#credits {
+	left:4%;
+	top:24%;
+}
+
+#follow-me{
+	left:4%;
+	top:4%;
+}
+
+#emailme{
+	left:4%;
+	top:14%;
+}
+
+#myblog{
 	left:10%;
-	top:15%;
+	top:14%;
 }
 
-#go2 {
-	top:63.5%;
-	left:36%;
+#facebook{
+	left:16%;
+	top:14%;
 }
 
-#texte-about {
-	left:14%;
-	width:72%;
-	font-size:1em;
-	line-height:25px;
+#twitter{
+	left:22%;
+	top:14%;
 }
 
-#isabellabeau {
-	left:14%;
+#pinterest{
+	left:28%;
+	top:14%;
 }
 
-#CV {
-	right:14.5%;
+#logotexte{
 	font-size:0.8em;
+	top:92%;
+	left:8.5%;
 }
 
-#slide5-CV {
-	right:26.8%;
-}
-
-#go5 {
+#logoisabellabeau{
 	top:90%;
-	left: 50%;
+	left:2%;
 }
 
-#esencia {
-	right:60%;
+#titre2{
+	left:43%;
+	font-size:1.3em;
 }
 
-#instrumento {
-	right:53%;
-	font-size:2.4em;
-	width:35%;
-}
-
-#experiencias {
-	right:41%;
-	font-size:3.6em;
-	width:47%;
-}
-
-.portfolio li { 
-		width:50%;		
-	}
-#filter li {
-	width:50%;
-}
-
-#tronco2{
-	right:18%;
-}
-
-#tronco1{
-	right:0;
-	top:4167px;
-}
-
-#crecer{
-	font-size:3.3em;
-}
-
-#fija{
-	left:20%;
-}
-
-#sueno{
-	left:15%;	
-}
-
-#idea{
-	right:25%;
-}
-
-#aqui{
-	left:61%;
-	font-size:2em;
+#titre-aboutme{
+	left:43%;
+	font-size:1.4em;
 }
 
 }
@@ -264,37 +243,7 @@
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
-#profile h1:before {  
-    width: 300px;
-	left:0;  
-}  
 
-#gallery h1:before {  
-    width: 300px; 
-	left:0; 
-}
-
-.portfolio li { 
-		width:100%;		
-	}
-
-#gallery h3{
-	 font-size: 26px;
-	 line-height: 30px;
-} 
-
-#filter li {
-	width:100%;
-}
-
-.project1{
-	width: 300px;
-	height:200px;
-}	
-
-.container .one-third.column{ 
-	width: 80%; 
-}
 
 }
 
@@ -307,26 +256,5 @@ and (min-width : 321px) {
 /* Smartphones (portrait) */
 @media only screen
 and (max-width : 320px) {
-.project a .pro-title h6{
-	font-size: 26px;
-}
-.project a .pro-image img{
-	width: 200px;
-	height:200px;
-}
-	.portfolio li { 
-		width:100%;		
-	}
-#gallery h3{
-	 font-size: 18px;
-	 line-height: 24px;
-}
-#filter li {
-	width:100%;
-}
 
-.project1{
-	width: 220px;
-	height:147px;
-}
 }
