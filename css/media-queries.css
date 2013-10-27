@@ -95,7 +95,7 @@
 }
 
 #texte-about{
-	font-size:0.9em;
+	font-size:1.1em;
 }
 	
 #slide5-CV{
@@ -157,8 +157,8 @@
 }
 
 #imagenes {
-	font-size:1.7em;
-	left:3%;
+	font-size:2em;
+	left:5%;
 }	
 
 #instrumento {
@@ -171,25 +171,25 @@
 }
 
 #phrase2 {
-	font-size:3.5em;
+	font-size:4em;
 	width:49%;
 	left:5%;
 }
 
 #textecredits {
-	font-size:0.9em;
+	font-size:1em;
 	left:4%;
 	top:32%;
 }
 
 #credits {
 	left:4%;
-	top:24%;
+	top:26%;
 }
 
 #follow-me{
 	left:4%;
-	top:4%;
+	top:7%;
 }
 
 #emailme{
@@ -247,10 +247,15 @@
 }
 
 #tangible{
-	left:5%;
-	font-size:2.2em;
+	left:4%;
+	font-size:3em;
 	
 }
+
+#filter li {
+	font-size: 1.2em;
+}
+
 
 }
 
