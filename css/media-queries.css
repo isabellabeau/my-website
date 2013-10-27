@@ -115,11 +115,12 @@
 }	
 
 #fija {
-	left:22%;
+	left:16%;
+	font-size:2.2em;
 }	
 	
 #imagination {
-	right:25%;
+	right:35%;
 }
 
 #idea {
@@ -136,27 +137,28 @@
 
 #sueno {
 	left:6%;
+	font-size:3.3em;
 }
 
 #viajo {
-	font-size:2.3em;
-	left:10%;
+	font-size:2em;
+	left:4%;
 }
 
 #llevar {
-	right:38%;
+	right:40%;
 	font-size:1.3em;
-	width:30%;
+	width:36%;
 }
 
 #interior {
-	right:35%;
+	right:39%;
 	font-size:2.5em;
 }
 
 #imagenes {
-	font-size:2em;
-	left:5%;
+	font-size:1.7em;
+	left:3%;
 }	
 
 #instrumento {
@@ -234,6 +236,20 @@
 #titre-aboutme{
 	left:43%;
 	font-size:1.4em;
+}
+
+#ligne-points{
+	left:5%;
+}
+
+#avion{
+	left:4%;
+}
+
+#tangible{
+	left:5%;
+	font-size:2.2em;
+	
 }
 
 }
