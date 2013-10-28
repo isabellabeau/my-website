@@ -24,7 +24,7 @@
 }	
 
 #fija {
-	left:16%;
+	left:40%;
 }	
 	
 #imagination {
@@ -32,7 +32,7 @@
 }
 
 #idea {
-	right:46%;
+	right:26%;
 }
 	
 #tronco3{
@@ -41,11 +41,15 @@
 	
 	
 #aqui {
-	left:35%;
+	left:60%;
+}
+
+#tangible{
+	left:15%;
 }
 
 #sueno {
-	left:8%;
+	left:28%;
 }
 
 #viajo {
@@ -53,9 +57,9 @@
 }
 
 #llevar {
-	right:38%;
-	font-size:1.3em;
-	width:30%;
+	right:29%;
+	font-size:1.8em;
+	width:39%;
 }
 
 #interior {
@@ -78,7 +82,7 @@
 }
 
 #phrase2 {
-	font-size:4em;
+	font-size:4.5em;
 	width:60%;
 }
 
@@ -147,7 +151,7 @@
 
 #llevar {
 	right:40%;
-	font-size:1.3em;
+	font-size:1.5em;
 	width:36%;
 }
 
