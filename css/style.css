@@ -15,7 +15,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		padding: 0;
 		border: 0;
 		font-size: 100%;
-		font: inherit;
 		vertical-align: baseline; }
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block; }
@@ -420,8 +419,10 @@ SLIDE 5
 
 
 #isabellabeau {
+	position:absolute;
 	left:15%;
 	top:10%;
+	z-index:5;
 }
 
 #go5 {
@@ -431,6 +432,8 @@ SLIDE 5
 }
 
 #texte-about {
+	position:absolute;
+	font-family:'Varela Round', sans-serif, Georgia, "Times New Roman", Times, serif;
 	left:8%;
 	width:86%;
 	top:42%;
@@ -441,6 +444,7 @@ SLIDE 5
 }
 
 #titre2 {
+	position:absolute;
 	left:38%;
 	top:25%;
 	color:#bd2944;
@@ -449,6 +453,9 @@ SLIDE 5
 }
 
 #titre-aboutme {
+	position:absolute;
+	font-family:'Varela Round', sans-serif, Georgia, "Times New Roman", Times, serif;
+	color:#4c2f4b;
 	left:37.5%;
 	top:20%;
 	text-transform: uppercase;
@@ -538,6 +545,9 @@ SLIDE 6
 }
 
 #phrase2 {
+	position:absolute;
+	font-family:'arsenale_whiteregular', "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#4c2f4b;
 	font-size:4.2em;
 	width:70%;
 	top:21%;
@@ -564,34 +574,51 @@ SLIDE 7
 }
 
 #pinterest {
+	position:absolute;
 	left:20%;
 	top:24%;
+	background: url(../images/slide7_pinterest.png) no-repeat scroll 0px 100% transparent;
 }
 
 #myblog {
+	position:absolute;
 	left:5%;
 	top:24%;
+	background: url(../images/slide7_myblog.png) no-repeat scroll 0px 100% transparent;
 }
 
 #emailme {
+	position:absolute;
 	top:24%;
+	background: url(../images/slide7_email.png) no-repeat scroll 0px 100% transparent;
 }
 
 #facebook {
+	position:absolute;
 	left:10%;
 	top:24%;
+	background: url(../images/slide7_pinterest.png) no-repeat scroll 0px 100% transparent;
 }
 
 #twitter {
+	position:absolute;
 	left:15%;
 	top:24%;
+	background: url(../images/slide7_pinterest.png) no-repeat scroll 0px 100% transparent;
 }
 
 #credits {
+	position:absolute;
 	top:40%;
+	color:#ff2f66;
+	font-size:3.5em;
+	font-family:'arsenale_whiteregular', "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
 #textecredits {
+	position:absolute;
+	font-family:'Varela Round', sans-serif, Georgia, "Times New Roman", Times, serif;
+	color:#9595b0;
 	top:48%;
 	font-size:1.1em;
 	line-height: 25px;
@@ -606,10 +633,17 @@ SLIDE 7
 }
 
 #logoisabellabeau {
+	position:absolute;
+	background: url(../images/logo-isabellabeau.png) no-repeat scroll 0px 100% transparent;
 	top:65%;
+	width:47px;
+	height:47px; 
 }
 
 #logotexte {
+	position:absolute;
+	color:#9595b0;
+	font-family:'Varela Round', sans-serif, Georgia, "Times New Roman", Times, serif;
 	left:5.6%;
 	top:67%;
 	font-size:0.9em;
@@ -649,6 +683,36 @@ SLIDE 7
 .violeta {color:#4c2f4b;}
 
 .nivel1 {z-index:1;}
-.nivel3 {z-index:2;}
+.texto-frases {
+	position:absolute;
+	font-family:'Raleway', sans-serif, Georgia, "Times New Roman", Times, serif;
+	color: white;
+	z-index:2;
+}
+	
+.texto-frases2 {
+	position:absolute;
+	font-family:'Raleway', sans-serif, Georgia, "Times New Roman", Times, serif;
+	color: 4c2f4b;
+	z-index:2;
+}
 .nivel4 {z-index:3;}
 .nivel5 {z-index:4;}
+
+#console {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 15px;
+	width: 500px;
+	margin: 0;
+	font-size: 14px;
+	font-style: italic;
+	background-color: #69697A;
+	text-shadow: none;
+	text-align: left;
+	padding: 3px 10px;
+	border-radius: 0 0 10px 10px;
+	z-index: 99;
+	opacity: .8;
+}

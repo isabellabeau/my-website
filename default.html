@@ -74,21 +74,53 @@
 <script type="text/javascript" src="js/jquery.scrollorama.js"></script>
 <script>
 
-	$(document).ready(function () {
+	/*$(document).ready(function () {
 		
-		var scrollorama = $.scrollorama({ blocks:'#bloc1', enablePin:false});
+		/*var scrollorama = $.scrollorama({ blocks:'#bloc1', enablePin:false});
 		
 		scrollorama.onBlockChange(function() {
     		alert('You just scrolled to block#'+scrollorama.blockIndex);
 		});
-		scrollorama.animate('#aqui',{ delay: 0, duration: 100, property:'opacity', start:0, end:1 });
-		scrollorama.animate('#idea',{ delay: 100, duration: 200, property:'opacity', start:0, end:1 });
-		scrollorama.animate('#sueno',{ delay: 200, duration: 200, property:'opacity', start:0, end:1 });
-		scrollorama.animate('#fija',{ delay: 300, duration: 200, property:'opacity', start:0, end:1 });
+		
+		scrollorama.animate('#idea',{ delay: 200, duration: 200, property:'opacity', start:1, end:0})
+			.animate('#sueno',{ delay: 300, duration: 300, property:'opacity', start:1, end:0})
+			.animate('#fija',{ delay: 400, duration: 400, property:'opacity', start:1, end:0});
 		//scrollorama.animate('#follow-me',{ delay: 0, duration: 100, property:'opacity', start:1, end:0 });
 		//scrollorama.animate('#credits',{ delay: 150, duration: 100, property:'opacity', start:1, end:0 });
-		 
-	});
+		/*$(window).scroll(function(){
+		var s = $('body').scrollTop();
+		console.log(s);
+		if(($('body').scrollTop()>=4551) && ($('body').scrollTop()<=4889)){
+			
+			$('#raiz-tronco-02').stop().animate({
+				height:'100px', width:'100px'
+				});
+		}
+		});*/
+		
+		$(function(){
+    $(window).on('scroll', function() {
+       var $myDiv = $('#tronco1');
+		var $image = $('#raiz-tronco-02');
+       var st = window.scrollY;
+       var $myDivTop = ($myDiv.position().top) - 100;
+		console.log('st '+st);
+		console.log('divtop '+$myDivTop);
+        if ( st >= $myDivTop && st <= ($myDivTop + 100) ) {
+            $image.animate({'width':+(st-$myDivTop)+'px','height':+(st-$myDivTop)+'px' }, 10);
+        }
+        
+        else if (st <= $myDivTop) {
+            $image.animate({'width':'30px','height':'30px' }, 10);
+        }
+        
+        else if (st >= ($myDivTop + 100) ) {
+            $image.animate({'width':'100px','height':'100px' }, 10);
+        }
+    })
+    .scroll();                     
+});
+	//});
 
 </script>
 </head>
@@ -109,9 +141,9 @@
   <div id="slide4-3"><img src="images/slide4_3.png" width="77" height="78" alt=""></div>
 </section>
 <section id="tronco1">
-  <img id="raiz-tronco-01" src="images/raiz-tronco_01.png" width="50" height="50" alt=""></div>
-  <img id="raiz-tronco-02" src="images/raiz-tronco_02.png" width="35" height="35" alt="">
-  <img id="raiz-tronco-03" src="images/raiz-tronco_03.png" width="43" height="61" alt=""></div>
+  <img id="raiz-tronco-01" src="images/raiz-tronco_01.png" width="100" height="100" alt=""></div>
+  <img id="raiz-tronco-02" src="images/raiz-tronco_02.png" width="69" height="69" alt="">
+  <img id="raiz-tronco-03" src="images/raiz-tronco_03.png" width="87" height="123" alt=""></div>
   <div id="crecer" class="raleway absolute">so as to <b>grow</b></div>
   <div id="seed"><img src="images/seed.png" width="14" height="14" alt=""></div>
 </section>
@@ -120,23 +152,23 @@
 <section id="seventh" class="smallslides">
   <div id="bloc7" class="container mil">
     <p id="follow-me" class="absolute arsenale rosa">Get in touch &amp; follow me :</p>
-    <p><img id="pinterest" class="absolute" src="images/slide7_pinterest.png" width="34" height="34" alt=""></p>
-    <p><img id="myblog" class="absolute" src="images/slide7_myblog.png" width="34" height="34" alt=""></p>
-    <p><img id="emailme" class="absolute" src="images/slide7_email.png" width="34" height="34" alt=""></p>
-    <p><img id="facebook" class="absolute" src="images/slide7_facebook.png" width="34" height="34" alt=""></p>
-    <p><img id="twitter" class="absolute" src="images/slide7_twitter.png" width="34" height="34" alt=""></p>
-    <p id="credits" class="absolute arsenale rosa">Made in paris with love by :</p>
-    <p id="textecredits" class="absolute varela bleu"><b>Isabel Labeau:</b> Design, concept, illustrations, CSS5 & HTML5 <br>
+    <p><img id="pinterest" src="images/slide7_pinterest.png" width="34" height="34" alt=""></p>
+    <p><img id="myblog" src="images/slide7_myblog.png" width="34" height="34" alt=""></p>
+    <p><img id="emailme" src="images/slide7_email.png" width="34" height="34" alt=""></p>
+    <p><img id="facebook" src="images/slide7_facebook.png" width="34" height="34" alt=""></p>
+    <p><img id="twitter" src="images/slide7_twitter.png" width="34" height="34" alt=""></p>
+    <p id="credits">Made in paris with love by :</p>
+    <p id="textecredits"><b>Isabel Labeau:</b> Design, concept, illustrations, CSS5 & HTML5 <br>
       <b>Kamel Gharbi:</b> Javascript</p>
-    <p><img id="logoisabellabeau" class="absolute" src="images/logo-isabellabeau.png" width="47" height="47" alt=""></p>
-    <p id="logotexte" class="absolute varela bleu">© isabellabeau.com 2013. All rights reserved.</p>
+    <p id="logoisabellabeau"></p>
+    <p id="logotexte">&copy; isabellabeau.com 2013. All rights reserved.</p>
   </div>
 </section>
 
-<!-- Section#6 -->
+<!-- Section#6 --> 
 <section id="sixth" class="smallslides">
   <div id="bloc6" class="container mil">
-    <p id="phrase2" class="arsenale violeta absolute">Shall I tell you a secret?<br>
+    <p id="phrase2">Shall I tell you a secret?<br>
       When I look through my bedroom window,<br>
       I see a big beautiful mountain that protects me and I daydream, one of those dreams is...</p>
     <p id="go2" class="absolute"><img src="images/slide6_go.png" alt=""></p>
@@ -146,10 +178,10 @@
 <!-- Section#5 -->
 <section id="fifth" class="smallslides">
   <div id="bloc5" class="container mil">
-    <p id="isabellabeau" class="absolute nivel5"><img src="images/isabellabeau.png" alt=""></p>
-    <p id="titre-aboutme" class="absolute varela violeta" >Isabel LABEAU </p>
-    <p id="titre2" class="absolute">Interface designer & illustrator</p>
-    <p id="texte-about" class=" absolute varela">i was born in a surreal country: México, full of magic, love, human warmth and plenty of sun; destiny drove me to land in a city as beautiful as Paris.<br>
+    <p id="isabellabeau"><img src="images/isabellabeau.png" alt=""></p>
+    <p id="titre-aboutme">Isabel LABEAU </p>
+    <p id="titre2">Interface designer & illustrator</p>
+    <p id="texte-about">i was born in a surreal country: México, full of magic, love, human warmth and plenty of sun; destiny drove me to land in a city as beautiful as Paris.<br>
       <br>
       To use my ample imagination and my desire to create, I chose the profession of WebDesigner & illusttrator.<br>
       <br>
@@ -167,9 +199,9 @@
 <!-- Section#4 -->
 <section id="fourth" class="smallslides">
   <div id="bloc4" class="container mil">
-    <p id="esencia" class="absolute raleway violeta nivel2"><b>essence</b>...</p>
-    <p id="experiencias" class="absolute raleway violeta nivel2">recycle experiences, feelings</p>
-    <p id="instrumento" class="absolute raleway violeta nivel2">And I, just an <b>instrument</b></p>
+    <p id="esencia" class="texto-frases2"><b>essence</b>...</p>
+    <p id="experiencias" class="texto-frases2">recycle experiences, feelings</p>
+    <p id="instrumento" class="texto-frases2">And I, just an <b>instrument</b></p>
   </div>
 </section>
 
@@ -279,25 +311,25 @@
 <!-- Section#2 -->
 <section id="second" class="slides">
   <div id="bloc2" class="container mil">
-    <p id="tangible" class="nivel2 raleway absolute blanco">to make this experience <b>tangible</b> each time. </p>
-    <p id="imagenes" class="nivel2 raleway absolute blanco">And there, inside, there are moments<br>
+    <p id="tangible" class="texto-frases">to make this experience <b>tangible</b> each time. </p>
+    <p id="imagenes" class="texto-frases">And there, inside, there are moments<br>
       that I translate into <b>images</b></p>
-    <p id="interior" class="raleway absolute blanco">where i <b>discover</b> interior landscapes</p>
-    <p id="avion" class="nivel2 absolute"><img src="images/avion.png" width="54" height="57" alt=""> </p>
-    <p id="ligne-points" class="nivel2 absolute"><img src="images/ligne-points.png" width="141" height="239" alt=""></p>
-    <p id="viajo" class="nivel2 raleway absolute blanco">A journey through the <b>universe</b></p>
-    <p id="llevar" class="nivel2 raleway absolute blanco">I let it <b>carry me</b> and transport</p>
-    <p id="imagination" class="nivel2 raleway absolute blanco"><b>imagination</b> takes its course</p>
+    <p id="interior" class="texto-frases">where i <b>discover</b> interior landscapes</p>
+    <p id="avion" class="texto-frases"><img src="images/avion.png" width="54" height="57" alt=""> </p>
+    <p id="ligne-points" class="texto-frases"><img src="images/ligne-points.png" width="141" height="239" alt=""></p>
+    <p id="viajo" class="texto-frases">A journey through the <b>universe</b></p>
+    <p id="llevar" class="texto-frases">I let it <b>carry me</b> and transport</p>
+    <p id="imagination" class="texto-frases"><b>imagination</b> takes its course</p>
   </div>
 </section>
 
 <!-- Section#1 -->
 <section id="first" class="smallslides">
   <div id="bloc1" class="container mil">
-    <p id="fija" class="nivel2 raleway absolute blanco">staring at the heights</p>
-    <p id="sueno" class="nivel2 raleway absolute blanco">a <b>dream</b> is born</p>
-    <p id="idea" class="nivel2 raleway absolute blanco">an <b>idea</b> begins</p>
-    <p id="aqui" class="nivel2 raleway absolute blanco"><b>Here</b> is where</p>
+    <p id="fija" class="texto-frases">staring at the heights</p>
+    <p id="sueno" class="texto-frases">a <b>dream</b> is born</p>
+    <p id="idea" class="texto-frases">an <b>idea</b> begins</p>
+    <p id="aqui" class="texto-frases"><b>Here</b> is where</p>
   </div>
 </section>
 </body>
