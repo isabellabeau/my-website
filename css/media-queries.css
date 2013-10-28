@@ -265,10 +265,74 @@
 
 
 /* Smartphones (portrait and landscape) */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
+#follow-me{
+	top:4%;
+}
 
+#emailme{
+	top:10%;
+}
+
+#myblog {
+    left: 15%;
+    top: 10%;
+}
+
+#facebook {
+    left: 30%;
+    top: 10%;
+}
+
+#twitter {
+    left: 46%;
+    top: 10%;
+}
+
+#pinterest {
+    left: 62%;
+    top: 10%;
+}
+
+#credits {
+    top: 20%;
+}
+	
+.rosa{
+	font-size:2.5em;
+}
+
+#textecredits{
+	top:25%;
+}
+
+#logotexte{
+	font-size:0.7em;
+	left:0px;
+	top:95%;
+}
+
+.smallslides {
+    height: 600px;
+}
+
+#logoisabellabeau {
+    top: 85%;
+}
+
+#tronco3{
+	right:0;
+	top:33%;
+	width:230px;
+	height:510px;
+	background: url(../images/tronco-house-iphone.png) no-repeat scroll 0px 100% transparent;
+}
+
+#phrase2 {
+    font-size: 4em;
+    top: 21%;
+	width:100%;
+}
 
 }
 
