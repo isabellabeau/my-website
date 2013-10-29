@@ -77,7 +77,7 @@
     /* Note: Design for a width of 768px */
 
     @media only screen and (min-width: 768px) and (max-width: 959px) {
-        .container                                  { width: 768px; }
+        .container                                  { width: 100%; }
         .container .column,
         .container .columns                         { margin-left: 10px; margin-right: 10px;  margin-top: 10px; margin-bottom: 10px;}
         .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 10px; }

@@ -87,36 +87,34 @@
 			.animate('#fija',{ delay: 400, duration: 400, property:'opacity', start:1, end:0});
 		//scrollorama.animate('#follow-me',{ delay: 0, duration: 100, property:'opacity', start:1, end:0 });
 		//scrollorama.animate('#credits',{ delay: 150, duration: 100, property:'opacity', start:1, end:0 });
-		/*$(window).scroll(function(){
-		var s = $('body').scrollTop();
-		console.log(s);
-		if(($('body').scrollTop()>=4551) && ($('body').scrollTop()<=4889)){
-			
-			$('#raiz-tronco-02').stop().animate({
-				height:'100px', width:'100px'
-				});
-		}
-		});*/
+		*/
 		
-		$(function(){
-    $(window).on('scroll', function() {
-       var $myDiv = $('#tronco1');
-		var $image = $('#raiz-tronco-02');
-       var st = window.scrollY;
-       var $myDivTop = ($myDiv.position().top) - 100;
-		console.log('st '+st);
-		console.log('divtop '+$myDivTop);
-        if ( st >= $myDivTop && st <= ($myDivTop + 100) ) {
-            $image.animate({'width':+(st-$myDivTop)+'px','height':+(st-$myDivTop)+'px' }, 10);
-        }
-        
-        else if (st <= $myDivTop) {
-            $image.animate({'width':'30px','height':'30px' }, 10);
-        }
-        
-        else if (st >= ($myDivTop + 100) ) {
-            $image.animate({'width':'100px','height':'100px' }, 10);
-        }
+$(function(){
+	
+	var scrollorama = $.scrollorama({ blocks:'#bloc1', enablePin:false});
+	scrollorama.animate('#idea',{ delay: 200, duration: 200, property:'opacity', start:1, end:0})
+			.animate('#sueno',{ delay: 300, duration: 300, property:'opacity', start:1, end:0})
+			.animate('#fija',{ delay: 400, duration: 400, property:'opacity', start:1, end:0});
+	
+	$(window).on('scroll', function() {
+	var $tronc = $('#tronco1');
+	var $raiz1 = $('#raiz-tronco-01');
+	var $raiz2 = $('#raiz-tronco-02');
+	var $raiz3 = $('#raiz-tronco-03');
+	var st = window.scrollY;
+	var $troncTop = ($tronc.position().top)+100;
+	var $size1 = 100+($troncTop-st);
+	var $size2 = 70+($troncTop-st);
+	var $size3 = 87+($troncTop-st);
+	
+	if ( st >= $troncTop && st <= ($troncTop + 100)) {
+		$raiz1.stop().animate({'width':+$size1+'px','height':+$size1+'px' }, 500);
+		$raiz2.stop().animate({'width':+$size2+'px','height':+$size2+'px' }, 10);
+		$raiz3.stop().animate({'width':+$size3+'px','height':+($size3*1.46)+'px' }, 0);
+	}
+    else if (st <= $troncTop) {
+    	console.log('<='+$size2);
+    }
     })
     .scroll();                     
 });
@@ -141,9 +139,9 @@
   <div id="slide4-3"><img src="images/slide4_3.png" width="77" height="78" alt=""></div>
 </section>
 <section id="tronco1">
-  <img id="raiz-tronco-01" src="images/raiz-tronco_01.png" width="100" height="100" alt=""></div>
-  <img id="raiz-tronco-02" src="images/raiz-tronco_02.png" width="69" height="69" alt="">
-  <img id="raiz-tronco-03" src="images/raiz-tronco_03.png" width="87" height="123" alt=""></div>
+ <img id="raiz-tronco-01" src="images/raiz-tronco_01.png" width="100" height="100" alt="">
+  <img id="raiz-tronco-02" src="images/raiz-tronco_02.png" width="70" height="70">
+   <img id="raiz-tronco-03" src="images/raiz-tronco_03.png" width="87" height="123" alt="">
   <div id="crecer" class="raleway absolute">so as to <b>grow</b></div>
   <div id="seed"><img src="images/seed.png" width="14" height="14" alt=""></div>
 </section>
@@ -165,7 +163,7 @@
   </div>
 </section>
 
-<!-- Section#6 --> 
+<!-- Section#6 -->
 <section id="sixth" class="smallslides">
   <div id="bloc6" class="container mil">
     <p id="phrase2">Shall I tell you a secret?<br>
