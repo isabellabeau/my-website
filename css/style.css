@@ -14,10 +14,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		margin: 0;
 		padding: 0;
 		border: 0;
-<<<<<<< HEAD
 		font-size: 100%;
-=======
->>>>>>> 1cddc778d92a68f1771b7609c060fe1ba3918396
 		vertical-align: baseline; }
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block; }
@@ -167,16 +164,16 @@ SLIDE 2
 }
 
 #tangible {
-	left:12%;
+	left:8%;
 	top:10%;
-	font-size:2.8em;
+	font-size:2.6em;
 }
 
 #imagenes {
 	left:121px;
 	top:280px;
 	font-size:2.5em;
-	text-align:center;
+	text-align:right;
 }
 
 #interior {
@@ -206,8 +203,8 @@ SLIDE 2
 }
 
 #llevar {
-	right:30%;
-	top:65%;
+	right:19%;
+	top:64%;
 	font-size:2.3em;
 }
 
@@ -440,10 +437,10 @@ SLIDE 5
 	left:8%;
 	width:86%;
 	top:42%;
-	font-size:1.3em;
+	font-size:1em;
 	text-align:justify;
 	color:#c2a8c4;
-	line-height:20px;
+	line-height:25px;
 }
 
 #titre2 {
@@ -470,7 +467,7 @@ SLIDE 5
 #slide5-CV {
 	position:absolute;
 	right:24%;
-	top:36.3%;
+	top:35.8%;
 }
 
 #slide5-CV :hover{
@@ -488,7 +485,7 @@ SLIDE 5
 	width:135px;
 	font-family: Arial, Helvetica, sans-serif;
 	color:#FFF;
-	font-size:1em;
+	font-size:0.8em;
 }
 
 #CV a:hover{
@@ -548,16 +545,11 @@ SLIDE 6
 }
 
 #phrase2 {
-<<<<<<< HEAD
 	position:absolute;
 	font-family:'arsenale_whiteregular', "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color:#4c2f4b;
 	font-size:4.2em;
 	width:70%;
-=======
-	font-size:5em;
-	width:56%;
->>>>>>> 1cddc778d92a68f1771b7609c060fe1ba3918396
 	top:21%;
 }
 
@@ -629,7 +621,7 @@ SLIDE 7
 	color:#9595b0;
 	top:48%;
 	font-size:1.1em;
-	line-height: 20px;
+	line-height: 25px;
 }
 
 .bleu{
@@ -707,20 +699,3 @@ SLIDE 7
 .nivel4 {z-index:3;}
 .nivel5 {z-index:4;}
 
-#console {
-	display: none;
-	position: fixed;
-	top: 0;
-	left: 15px;
-	width: 500px;
-	margin: 0;
-	font-size: 14px;
-	font-style: italic;
-	background-color: #69697A;
-	text-shadow: none;
-	text-align: left;
-	padding: 3px 10px;
-	border-radius: 0 0 10px 10px;
-	z-index: 99;
-	opacity: .8;
-}

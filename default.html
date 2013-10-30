@@ -74,27 +74,28 @@
 <script type="text/javascript" src="js/jquery.scrollorama.js"></script>
 <script>
 
-	/*$(document).ready(function () {
-		
-		/*var scrollorama = $.scrollorama({ blocks:'#bloc1', enablePin:false});
-		
-		scrollorama.onBlockChange(function() {
-    		alert('You just scrolled to block#'+scrollorama.blockIndex);
-		});
-		
-		scrollorama.animate('#idea',{ delay: 200, duration: 200, property:'opacity', start:1, end:0})
-			.animate('#sueno',{ delay: 300, duration: 300, property:'opacity', start:1, end:0})
-			.animate('#fija',{ delay: 400, duration: 400, property:'opacity', start:1, end:0});
-		//scrollorama.animate('#follow-me',{ delay: 0, duration: 100, property:'opacity', start:1, end:0 });
-		//scrollorama.animate('#credits',{ delay: 150, duration: 100, property:'opacity', start:1, end:0 });
-		*/
-		
+
 $(function(){
 	
-	var scrollorama = $.scrollorama({ blocks:'#bloc1', enablePin:false});
-	scrollorama.animate('#idea',{ delay: 200, duration: 200, property:'opacity', start:1, end:0})
-			.animate('#sueno',{ delay: 300, duration: 300, property:'opacity', start:1, end:0})
-			.animate('#fija',{ delay: 400, duration: 400, property:'opacity', start:1, end:0});
+	var scrollorama = $.scrollorama({ blocks:'#bloc1, #bloc2', enablePin:false});
+	scrollorama.animate('#idea',{ delay: 600, duration: 100, property:'opacity', start:1, end:0})
+		.animate('#sueno',{ delay: 500, duration: 100, property:'opacity', start:1, end:0})
+		.animate('#fija',{ delay: 450, duration: 100, property:'opacity', start:1, end:0});
+		
+	
+	scrollorama.animate('#imagination',{ delay: 400, duration: 100, property:'opacity', start:1, end:0})
+		.animate('#viajo',{ delay: 300, duration: 100, property:'opacity', start:1, end:0})
+		.animate('#llevar',{ delay: 200, duration: 100, property:'opacity', start:1, end:0})
+		.animate('#interior',{ delay: 100, duration: 100, property:'opacity', start:1, end:0})
+		.animate('#imagenes',{ delay: 30, duration: 100, property:'opacity', start:1, end:0})
+		.animate('#tangible',{ delay: 20, duration: 50, property:'opacity', start:1, end:0});
+		
+	var scrollorama = $.scrollorama({ blocks:'#bloc4', enablePin:false});
+	scrollorama.animate('#instrumento',{ delay: 350, duration: 100, property:'opacity', start:1, end:0})
+		.animate('#experiencias',{ delay: 100, duration: 100, property:'opacity', start:1, end:0})
+		.animate('#esencia',{ delay: 10, duration: 100, property:'opacity', start:1, end:0});
+	
+	
 	
 	$(window).on('scroll', function() {
 	var $tronc = $('#tronco1');
@@ -112,13 +113,48 @@ $(function(){
 		$raiz2.stop().animate({'width':+$size2+'px','height':+$size2+'px' }, 10);
 		$raiz3.stop().animate({'width':+$size3+'px','height':+($size3*1.46)+'px' }, 0);
 	}
-    else if (st <= $troncTop) {
-    	console.log('<='+$size2);
-    }
+	
+	var $tronc2 = $('#tronco2');
+	var $slide1 = $('#slide4-1');
+	var $slide2 = $('#slide4-2');
+	var $slide3 = $('#slide4-3');
+	var $tronc2Top = ($tronc2.position().top)+100;
+	var $size21 = 110+($tronc2Top-st);
+	var $size22 = 147+($tronc2Top-st);
+	var $size23 = 78+($tronc2Top-st);
+	
+	if ( st >= $tronc2Top && st <= ($tronc2Top + 100)) {
+		$slide1.stop().animate({'width':+$size21+'px','height':+$size21+'px' }, 500);
+		$slide2.stop().animate({'width':+$size22+'px','height':+$size22+'px' }, 10);
+		$slide3.stop().animate({'width':+$size23+'px','height':+($size23*1.08)+'px' }, 0);
+	}
+	
+	var $tronc3 = $('#tronco3');
+	var $slide1 = $('#slide6-1');
+	var $slide2 = $('#slide6-2');
+	var $slide3 = $('#slide6-3');
+	var $slide4 = $('#slide6-4');
+	var $slide5 = $('#slide6-5');
+	var $tronc3Top = ($tronc3.position().top)+450;
+	var $size31 = 114+($tronc3Top-st);
+	var $size32 = 38+($tronc3Top-st);
+	var $size33 = 38+($tronc3Top-st);
+	var $size34 = 30+($tronc3Top-st);
+	var $size35 = 82+($tronc3Top-st);
+	
+	if ( st >= $tronc3Top && st <= ($tronc3Top + 450)) {
+		$slide1.stop().animate({'width':+$size31+'px','height':+$size31+'px' }, 500);
+		$slide2.stop().animate({'width':+$size32+'px','height':+$size32+'px' }, 10);
+		$slide3.stop().animate({'width':+$size33+'px','height':+$size33+'px' }, 0);
+		$slide4.stop().animate({'width':+$size34+'px','height':+$size34+'px' }, 0);
+		$slide5.stop().animate({'width':+$size35+'px','height':+($size35*1.26)+'px' }, 0);
+	}
+	
+	
     })
-    .scroll();                     
+    .scroll();
+	
 });
-	//});
 
 </script>
 </head>
@@ -127,23 +163,23 @@ $(function(){
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 <section id="tronco3">
-  <div id="slide6-1"><img src="images/slide6_1.png" width="114" height="116" alt=""></div>
-  <div id="slide6-2"><img src="images/slide6_2.png" width="38" height="38" alt=""></div>
-  <div id="slide6-3"><img src="images/slide6_3.png" width="38" height="38" alt=""></div>
-  <div id="slide6-4"><img src="images/slide6_4.png" width="30" height="30" alt=""></div>
-  <div id="slide6-5"><img src="images/slide6_5.png" width="82" height="104" alt=""></div>
+  <img id="slide6-1"src="images/slide6_1.png" width="114" height="116" alt="">
+  <img id="slide6-2" src="images/slide6_2.png" width="38" height="38" alt="">
+  <img id="slide6-3" src="images/slide6_3.png" width="38" height="38" alt="">
+  <img id="slide6-4" src="images/slide6_4.png" width="30" height="30" alt="">
+  <img id="slide6-5" src="images/slide6_5.png" width="82" height="104" alt=""></div>
 </section>
 <section id="tronco2">
-  <div id="slide4-1"><img src="images/slide4_1.png" width="108" height="110" alt=""></div>
-  <div id="slide4-2"><img src="images/slide4_2.png" width="147" height="135" alt=""></div>
-  <div id="slide4-3"><img src="images/slide4_3.png" width="77" height="78" alt=""></div>
+  <img id="slide4-1" src="images/slide4_1.png" width="108" height="110" alt="">
+  <img id="slide4-2" src="images/slide4_2.png" width="147" height="135" alt="">
+  <img id="slide4-3" src="images/slide4_3.png" width="77" height="78" alt="">
 </section>
 <section id="tronco1">
  <img id="raiz-tronco-01" src="images/raiz-tronco_01.png" width="100" height="100" alt="">
   <img id="raiz-tronco-02" src="images/raiz-tronco_02.png" width="70" height="70">
    <img id="raiz-tronco-03" src="images/raiz-tronco_03.png" width="87" height="123" alt="">
   <div id="crecer" class="raleway absolute">so as to <b>grow</b></div>
-  <div id="seed"><img src="images/seed.png" width="14" height="14" alt=""></div>
+  <div id="seed"><a href="#volet" class="grown"><img src="images/seed.png" width="14" height="14" alt=""></a></div>
 </section>
 
 <!-- Section#7-->
