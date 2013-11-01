@@ -14,6 +14,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		margin: 0;
 		padding: 0;
 		border: 0;
+		font-size: 100%;
 		vertical-align: baseline; }
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block; }
@@ -31,9 +32,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		border-collapse: collapse;
 		border-spacing: 0; }
 
-a, a:visited{text-decoration:none;}
-section div p{position:absolute;}
-
+a, a:visited{
+	text-decoration:none;
+}
 
 @font-face {
     font-family:'arsenale_whiteregular'; src: url('../fonts/arsenale_white-webfont.ttf');
@@ -52,114 +53,14 @@ section div p{position:absolute;}
 	z-index:10;
 }
 
-.slides{ height: 1000px; padding: 0; margin: 0; width: 100%; position: relative; margin: 0 auto;}
-
-.slide3{ height: 1000px; padding: 0; margin: 0; width: 100%; position: relative; margin: 0 auto;}
-
-.smallslides{ height: 722px; padding: 0; margin: 0; width: 100%; position: relative; margin: 0 auto;}
-
-
-#seventh { background: url(../images/fond7.png) 50% 0 no-repeat; }
-#sixth { background: url(../images/fond6.png) 50% 0 no-repeat; }
-#fifth { background: url(../images/fond5.png) 50% 0 no-repeat; }
-#fourth { background: url(../images/fond4.png) 50% 0 no-repeat; }
-#third { background: url(../images/fond3.png) 50% 0 no-repeat #d2c608; }
-#second  { background: url(../images/fond2.png) 50% 0 no-repeat; }
-#first { background: url(../images/fond1.jpg) 50% top no-repeat; }
-
-.mil{height:100%;}
-
-/*
-SLIDE 1
-*/
-
-#bloc1 p{
-	font-family:'Raleway', sans-serif, Georgia, "Times New Roman", Times, serif;
-	color:white;
-	z-index:2;
-}
-
-#aqui {
-	left:65%;
-	top:79%;
-	font-size:2.5em;
-	width:270px;
-}
-
-#idea {
-	right:16%;
-	top:66%;
-	font-size:3em;
-}
-
-#sueno {
-	left:30%;
-	top:52%;
-	font-size:3.6em;
-}
-
-#fija {
-	left:42%;
-	top:41%;
-	font-size:2.5em;
-}
-
-
-
-/*
-RAIZ 
-*/
-
-#seed {
+#tronco2{
 	position:absolute;
-	background:url(../images/seed.png) no-repeat;
-	width:14px;
-	height:14px;
-	right:44%;
-	top:99%;
-}
-
-#raiz-tronco-01 {
-	position:absolute;
-	background:url(../images/raiz-tronco_01.png) no-repeat;
-	width:99px; 
-	height:100px;
-	left:134px;
-	top:175px;
-	z-index:20;
-
-}
-
-#raiz-tronco-02 {
-	position:absolute;
-	background:url(../images/raiz-tronco_02.png) no-repeat;
-	width:69px; 
-	height:69px;
-	left:40px;
-	top:508px;
-	z-index:20;
-}
-
-#raiz-tronco-03 {
-	position:absolute;
-	background:url(../images/raiz-tronco_03.png) no-repeat;
-	width:87px; 
-	height:123px;
-	left:191px;
-	top:689px;
-	z-index:20;
-}
-
-#crecer {
-	position:absolute;
-	font-family:'Raleway', sans-serif, Georgia, "Times New Roman", Times, serif;
-	left:18%;
-	top:952px;
-	color:#603362;
-	font-size:3.1em;
-	text-align:center;
-	width:58%;
-	z-index:20;
+	right:20%;
+	top:2130px;
+	width:187px;
+	height:889px;
+	background: url(../images/tronco2.png) no-repeat scroll 0px 100% transparent;
+	z-index:10;
 }
 
 #tronco1{
@@ -172,28 +73,126 @@ RAIZ
 	z-index:10;
 }
 
+.slides{ height: 1000px; padding: 0; margin: 0; width: 100%; position: relative; margin: 0 auto;}
+
+.slide3{ height: 1000px; padding: 0; margin: 0; width: 100%; position: relative; margin: 0 auto;}
+
+.smallslides{ height: 722px; padding: 0; margin: 0; width: 100%; position: relative; margin: 0 auto;}
+
+#seventh { background: url(../images/fond7.png) 50% 0 no-repeat; }
+#sixth { background: url(../images/fond6.png) 50% 0 no-repeat; }
+#fifth { background: url(../images/fond5.png) 50% 0 no-repeat; }
+#fourth { background: url(../images/fond4.png) 50% 0 no-repeat; }
+#third { background: url(../images/fond3.png) 50% 0 no-repeat #d2c608; }
+#second  { background: url(../images/fond2.png) 50% 0 no-repeat; }
+#first { background: url(../images/fond1.jpg) 50% bottom no-repeat; }
+
+.mil{height:100%;}
+
+/*
+SLIDE 1
+*/
+
+
+#fija {
+	left:42%;
+	top:41%;
+	font-size:2.5em;
+}
+
+#sueno {
+	left:30%;
+	top:52%;
+	font-size:3.6em;
+}
+
+
+#idea {
+	right:16%;
+	top:66%;
+	font-size:3em;
+}
+
+#aqui {
+	left:65%;
+	top:79%;
+	font-size:2.5em;
+	width:270px;
+}
+
+#seed {
+	position:absolute;
+	right:44%;
+	top:99%;
+
+}
+
+
 /*
 SLIDE 2
 */
 
-#bloc2{
+#raiz-tronco-01 {
 	position:absolute;
-	font-family:'Raleway', sans-serif, Georgia, "Times New Roman", Times, serif;
-	color:white;
-	z-index:2;
+	left:134px;
+	top:175px;
+	z-index:20;
 }
 
-#imagination {
-	right:12%;
-	top:80%;
-	font-size:2em;
-	width:450px;
+#raiz-tronco-02 {
+	position:absolute;
+	left:40px;
+	top:508px;
+	z-index:20;
 }
 
-#llevar {
-	right:30%;
-	top:65%;
-	font-size:2.3em;
+#raiz-tronco-03 {
+	position:absolute;
+	left:191px;
+	top:689px;
+	z-index:20;
+}
+
+#crecer {
+	left:18%;
+	top:952px;
+	color:#603362;
+	font-size:3.1em;
+	text-align:center;
+	width:58%;
+	z-index:20;
+}
+
+#tangible {
+	left:8%;
+	top:10%;
+	font-size:2.6em;
+}
+
+#imagenes {
+	left:121px;
+	top:280px;
+	font-size:2.5em;
+	text-align:right;
+}
+
+#interior {
+	right:22%;
+	top:435px;
+	font-size:2.7em;
+	text-align:center;
+	width:40%;
+	z-index:40;
+}
+
+#avion {
+	left:152px;
+	top:364px;
+}
+
+#ligne-points {
+	left:157px;
+	top:421px;
 }
 
 #viajo {
@@ -203,41 +202,22 @@ SLIDE 2
 	width:65%;
 }
 
-#ligne-points {
-	left:157px;
-	top:421px;
+#llevar {
+	right:19%;
+	top:64%;
+	font-size:2.3em;
 }
 
-#avion {
-	left:152px;
-	top:364px;
-}
-
-#interior {
-	right:22%;
-	top:435px;
-	font-size:2.7em;
-	text-align:center;
-	width:40%;
-}
-
-#imagenes {
-	left:121px;
-	top:280px;
-	font-size:2.5em;
-	text-align:center;
-}
-
-#tangible {
-	left:12%;
-	top:10%;
-	font-size:2.8em;
+#imagination {
+	right:12%;
+	top:80%;
+	font-size:2em;
+	width:450px;
 }
 
 /*
 SLIDE 3
 */
-
 #bloc3{
 	padding-top:100px;
 }
@@ -249,7 +229,6 @@ SLIDE 3
 }
 
 #filter {
-	font-family:'Varela Round', sans-serif, Georgia, "Times New Roman", Times, serif;
 	display: inline-block;
 	top:50px;
 	z-index:30;
@@ -388,14 +367,11 @@ SLIDE 3
 }
 
 /*
-TRONCO
+SLIDE 4
 */
 
 #slide4-1 {
 	position:absolute;
-	background:url(../images/slide4_1.png) no-repeat;
-	width:108px; 
-	height:110px;
 	right:-35px;
 	top:43px;
 	z-index:20;
@@ -403,9 +379,6 @@ TRONCO
 
 #slide4-2 {
 	position:absolute;
-	background:url(../images/slide4_2.png) no-repeat;
-	width:147px; 
-	height:135px;
 	right:113px;
 	top:178px;
 	z-index:20;
@@ -413,39 +386,15 @@ TRONCO
 
 #slide4-3 {
 	position:absolute;
-	background:url(../images/slide4_3.png) no-repeat;
-	width:77px; 
-	height:78px;
 	right:127px;
 	top:544px;
 	z-index:20;
 }
 
-#tronco2{
-	position:absolute;
-	right:20%;
-	top:2130px;
-	width:187px;
-	height:889px;
-	background: url(../images/tronco2.png) no-repeat scroll 0px 100% transparent;
-	z-index:10;
-}
-
-/*
-SLIDE 4
-*/
-
-#bloc4 p{
-	position:absolute;
-	font-family:'Raleway', sans-serif, Georgia, "Times New Roman", Times, serif;
-	color:#4c2f4b;
-	z-index:2;
-}
-
-#instrumento {
-	right:29%;
-	top:74%;
-	font-size:3.2em;
+#esencia {
+	right:33%;
+	top:15%;
+	font-size:4.5em;
 }
 
 #experiencias {
@@ -456,88 +405,102 @@ SLIDE 4
 	width:60%;
 }
 
-#esencia {
-	right:33%;
-	top:15%;
-	font-size:4.5em;
+#instrumento {
+	right:29%;
+	top:74%;
+	font-size:3.2em;
+
 }
+
 
 /*
 SLIDE 5
 */
 
-#bloc5 p{
-	font-family:'Varela Round', sans-serif, Georgia, "Times New Roman", Times, serif;
+
+#isabellabeau {
+	position:absolute;
+	left:15%;
+	top:10%;
 	z-index:5;
 }
 
-#isabellabeau {
-	background:url(../images/isabellabeau.png) no-repeat;
-	width:190px;
-	height:198px;
-	left:15%;
-	top:10%;
-}
-
 #go5 {
-	background:url(../images/slide6_go.png) no-repeat;
-	width:19px;
-	height:18px;
 	left:50%;
 	top:90%;
+	z-index:2;
 }
 
 #texte-about {
+	position:absolute;
+	font-family:'Varela Round', sans-serif, Georgia, "Times New Roman", Times, serif;
 	left:8%;
 	width:86%;
 	top:42%;
-	font-size:1.3em;
+	font-size:1em;
 	text-align:justify;
 	color:#c2a8c4;
-	line-height:20px;
+	line-height:25px;
 }
 
 #titre2 {
+	position:absolute;
 	left:38%;
 	top:25%;
 	color:#bd2944;
-	font-family: 'Miniver', cursive, Verdana, Geneva, sans-serif !important;
+	font-family: 'Miniver', cursive, Verdana, Geneva, sans-serif;
 	font-size:1.5em;
 }
 
 #titre-aboutme {
+	position:absolute;
+	font-family:'Varela Round', sans-serif, Georgia, "Times New Roman", Times, serif;
+	color:#4c2f4b;
 	left:37.5%;
 	top:20%;
 	text-transform: uppercase;
 	font-size:1.8em;
 	letter-spacing:10px;
-	color:#ff7531;
+	color:#ff8454;
 }
 
 #slide5-CV {
-	background:url(../images/slide5_CV.png) no-repeat;
-	width:15px;
-	height:9px;
+	position:absolute;
 	right:24%;
-	top:36.3%;
+	top:35.8%;
 }
 
+#slide5-CV :hover{
+	filter: alpha(opacity = 20);
+    -moz-opacity: 20;
+    -khtml-opacity: 20;
+    opacity: 20;
+    cursor: pointer;
+	}
+
 #CV {
+	position:absolute;
 	right:9.7%;
 	top:36%;
 	width:135px;
 	font-family: Arial, Helvetica, sans-serif;
 	color:#FFF;
-	font-size:1em;
+	font-size:0.8em;
+}
+
+#CV a:hover{
+	color:#FFF;
+	opacity:0.2;
+	filter:alpha(opacity=20); /* For IE8 and earlier */
 }
 
 /*
 SLIDE 6
 */
 
+
 #slide6-1 {
 	position:absolute;
-	background:url(../images/slide6_1.png) no-repeat;
 	right:140px;
 	top:570px;
 	width:114px;
@@ -547,7 +510,6 @@ SLIDE 6
 
 #slide6-2 {
 	position:absolute;
-	background:url(../images/slide6_2.png) no-repeat;
 	right:311px;
 	top:899px;
 	width:38px;
@@ -557,7 +519,6 @@ SLIDE 6
 
 #slide6-3 {
 	position:absolute;
-	background:url(../images/slide6_3.png) no-repeat;
 	right:329px;
 	top:923px;
 	width:38px;
@@ -567,7 +528,6 @@ SLIDE 6
 
 #slide6-4 {
 	position:absolute;
-	background:url(../images/slide6_4.png) no-repeat;
 	right:299px;
 	top:922px;
 	width:30px;
@@ -577,7 +537,6 @@ SLIDE 6
 
 #slide6-5 {
 	position:absolute;
-	background:url(../images/slide6_5.png) no-repeat;
 	right:150px;
 	top:1060px;
 	width:82px;
@@ -586,16 +545,15 @@ SLIDE 6
 }
 
 #phrase2 {
+	position:absolute;
 	font-family:'arsenale_whiteregular', "Trebuchet MS", Arial, Helvetica, sans-serif;
-	font-size:5em;
-	width:56%;
+	color:#4c2f4b;
+	font-size:4.2em;
+	width:70%;
 	top:21%;
 }
 
 #go2 {
-	background:url(../images/go5.png) no-repeat;
-	width:19px;
-	height:18px;
 	left:30%;
 	top:82.5%;
 	z-index:2;
@@ -606,91 +564,138 @@ SLIDE 7
 */
 
 #follow-me {
-	font-family:'arsenale_whiteregular', "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color:#ff2f66;
-	font-size:3.5em;
 	top:15%;
 	width:415px;
 }
 
+.rosa{
+	color:#ff2f66;
+	font-size:3.5em;
+}
+
 #pinterest {
-	background:url(../images/slide7_pinterest.png) no-repeat;
-	width:34px;
-	height:34px;
+	position:absolute;
 	left:20%;
 	top:24%;
+	background: url(../images/slide7_pinterest.png) no-repeat scroll 0px 100% transparent;
 }
 
 #myblog {
 	position:absolute;
-	background:url(../images/slide7_myblog.png) no-repeat;
-	width:34px;
-	height:34px;
 	left:5%;
 	top:24%;
+	background: url(../images/slide7_myblog.png) no-repeat scroll 0px 100% transparent;
 }
 
 #emailme {
 	position:absolute;
-	background:url(../images/slide7_email.png) no-repeat;
-	width:34px;
-	height:34px;
 	top:24%;
+	background: url(../images/slide7_email.png) no-repeat scroll 0px 100% transparent;
 }
 
 #facebook {
 	position:absolute;
-	background:url(../images/slide7_facebook.png) no-repeat;
-	width:34px;
-	height:34px;
 	left:10%;
 	top:24%;
+	background: url(../images/slide7_pinterest.png) no-repeat scroll 0px 100% transparent;
 }
 
 #twitter {
-	background:url(../images/slide7_twitter.png) no-repeat;
-	width:34px;
-	height:34px;
+	position:absolute;
 	left:15%;
 	top:24%;
+	background: url(../images/slide7_pinterest.png) no-repeat scroll 0px 100% transparent;
 }
 
 #credits {
+	position:absolute;
 	top:40%;
-	font-family:'arsenale_whiteregular', "Trebuchet MS", Arial, Helvetica, sans-serif;
 	color:#ff2f66;
 	font-size:3.5em;
-	
+	font-family:'arsenale_whiteregular', "Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 
 #textecredits {
-	top:48%;
+	position:absolute;
 	font-family:'Varela Round', sans-serif, Georgia, "Times New Roman", Times, serif;
+	color:#9595b0;
+	top:48%;
 	font-size:1.1em;
-	line-height: 20px;
+	line-height: 25px;
+}
+
+.bleu{
 	color:#9595b0;
 }
 
+.bleu b {
+	color:#b8b8cc;
+}
+
 #logoisabellabeau {
-	background:url(../images/logo-isabellabeau.png) no-repeat;
-	width:47px;
-	height:47px;
+	position:absolute;
+	background: url(../images/logo-isabellabeau.png) no-repeat scroll 0px 100% transparent;
 	top:65%;
+	width:47px;
+	height:47px; 
 }
 
 #logotexte {
+	position:absolute;
+	color:#9595b0;
 	font-family:'Varela Round', sans-serif, Georgia, "Times New Roman", Times, serif;
 	left:5.6%;
 	top:67%;
 	font-size:0.9em;
-	color:#9595b0;
 }
 
-.bleu{color:#9595b0;}
-.bleu b {color:#b8b8cc;}
+.uppercase{text-transform:uppercase;}
+
+.txtcenter{text-align:center;}
+.txtbottom{vertical-align:text-bottom;}
+.txtleft{text-align:left;}
+.txtright{text-align:right;}
+
+.absolute{position:absolute;}
+.relative{position:relative;}
+
+.bottom{bottom:0px;}
+.top{top:0px;}
+.center{margin-left: auto;margin-right: auto;}
+.right{float:right;}
+.left{float:left;}
+
 .clear{clear:both;}
+
 .clickable{cursor:pointer;}
+
 .show{display:block;}
 .hide{display:none;}
+
 .faded{opacity:0.4;}
 .opaque{opacity:1.0;}
+
+.varela{font-family:'Varela Round', sans-serif, Georgia, "Times New Roman", Times, serif;}
+.raleway{font-family:'Raleway', sans-serif, Georgia, "Times New Roman", Times, serif;}
+.arsenale{font-family:'arsenale_whiteregular', "Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+.blanco {color: white;}
+.violeta {color:#4c2f4b;}
+
+.nivel1 {z-index:1;}
+.texto-frases {
+	position:absolute;
+	font-family:'Raleway', sans-serif, Georgia, "Times New Roman", Times, serif;
+	color: white;
+	z-index:2;
+}
+	
+.texto-frases2 {
+	position:absolute;
+	font-family:'Raleway', sans-serif, Georgia, "Times New Roman", Times, serif;
+	color: 4c2f4b;
+	z-index:2;
+}
+.nivel4 {z-index:3;}
+.nivel5 {z-index:4;}
+

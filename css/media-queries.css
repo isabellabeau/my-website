@@ -266,40 +266,36 @@
 
 /* Smartphones (portrait and landscape) */
 @media screen and (min-width: 320px) and (max-width: 480px) {
-	
 #follow-me{
-	top:2%;
-	font-size:2.5em;
+	top:4%;
 }
 
 #emailme{
-	top:12%;
-	font-size:2.5em;
+	top:10%;
 }
 
 #myblog {
     left: 15%;
-    top: 12%;
+    top: 10%;
 }
 
 #facebook {
     left: 30%;
-    top: 12%;
+    top: 10%;
 }
 
 #twitter {
     left: 46%;
-    top: 12%;
+    top: 10%;
 }
 
 #pinterest {
     left: 62%;
-    top: 12%;
+    top: 10%;
 }
 
 #credits {
-    top: 30%;
-	font-size:2.5em;
+    top: 20%;
 }
 	
 .rosa{
@@ -307,18 +303,17 @@
 }
 
 #textecredits{
-	top:38%;
-	font-size:0.85em;
+	top:25%;
 }
 
 #logotexte{
 	font-size:0.7em;
 	left:0px;
-	top:53%;
+	top:95%;
 }
 
 .smallslides {
-    height: 350px;
+    height: 600px;
 }
 
 #logoisabellabeau {
@@ -327,261 +322,16 @@
 
 #tronco3{
 	right:0;
-	top:200px;
+	top:33%;
 	width:230px;
 	height:510px;
 	background: url(../images/tronco-house-iphone.png) no-repeat scroll 0px 100% transparent;
 }
 
 #phrase2 {
-    font-size: 2.3em;
-    top: 8%;
-	width:44%;
-}
-
-#esencia {
-    font-size: 2.5em;
-}
-
-#slide6-1 {
-	background:url(../images/slide6_1-iphone.png) no-repeat;
-	right:25%;
-	top:46%;
-	width:57px;
-	height:58px;
-}
-
-#slide6-2 {
-	background:url(../images/slide6_2.png) no-repeat;
-	right:51%;
-	top:72%;
-}
-
-#slide6-3 {
-	background:url(../images/slide6_3.png) no-repeat;
-	right:43%;
-	top:74%;
-}
-
-#slide6-4 {
-	background:url(../images/slide6_4.png) no-repeat;
-	right:54%;
-	top:76%;
-}
-
-#slide6-5 {
-	position:absolute;
-	background:url(../images/slide6_5-iphone.png) no-repeat;
-	right:21%;
-	top:85%;
-	width:49px;
-	height:62px;
-	z-index:20;
-}
-
-#isabellabeau {
-	background: url("../images/isabellabeau-iphone.png") no-repeat scroll 0% 0% transparent;
-	width:95px;
-	height:99px;
-    top: 3%;
-	left:2%;
-}
-
-#texte-about {
-    font-size: 1em;
-    line-height: 15px;
-	left:2%;
-	width:95%;
-	top:28%;
-}
-
-#titre-aboutme {
-    left: 40%;
-    top: 8%;
-    font-size: 1.4em;
-}
-
-#titre2 {
-    left: 40%;
-    top: 15%;
-    font-size: 1em;
-}
-
-#CV {
-    right: 8.7%;
-    top: 24%;
-    font-size: 0.7em;
-}
-
-#slide5-CV {
-    right: 54.5%;
-    top: 24%;
-}
-
-#tronco2 {
-    right: 1%;
-    top: 1241px;
-    width: 107px;
-    height: 446px;
-    background: url("../images/tronco2-iphone.png") no-repeat scroll 0px 100% transparent;
-}
-
-#slide4-1 {
-    background: url("../images/slide4_1-iphone.png") no-repeat scroll 0% 0% transparent;
-    width: 54px;
-    height: 55px;
-    right: 0%;
-    top: 25px;
-}
-
-#slide4-2 {
-    background: url("../images/slide4_2-iphone.png") no-repeat scroll 0% 0% transparent;
-    width: 74px;
-    height: 68px;
-    right: 59%;
-    top: 172px;
-}
-
-#go2 {
-    left: 44%;
-    top: 92.5%;
-}
-
-.smallslides1 {
-    height: 560px;
-}
-
-#experiencias {
-    right: 42%;
-    top: 30%;
-    font-size: 2.6em;
-}
-
-#instrumento {
-    left: 10%;
-    top: 66%;
-    font-size: 2em;
-}
-
-#slide4-3 {
-    background: url("../images/slide4_3-iphone.png") no-repeat scroll 0% 0% transparent;
-    width: 39px;
-    height: 39px;
-    right: 69%;
-    top: 276px;
-}
-
-#tronco1 {
-    right: 0%;
-    top: 5128px;
-    width: 163px;
-    height: 711px;
-    background: url("../images/raiz-tronco-iphone.png") no-repeat scroll 0px 100% transparent;
-}
-
-.slide3 {
-    height: 2900px;
-
-}
-
-#raiz-tronco-01 {
-    background: url("../images/raiz-tronco_01-iphone.png") no-repeat scroll 0% 0% transparent;
-    width: 50px;
-    height: 50px;
-    left: 41%;
-    top: 87px;
-}
-
-#raiz-tronco-02 {
-    background: url("../images/raiz-tronco_02-iphone.png") no-repeat scroll 0% 0% transparent;
-    width: 35px;
-    height: 35px;
-    left: 14%;
-    top: 253px;
-}
-
-#raiz-tronco-03 {
-    background: url("../images/raiz-tronco_03-iphone.png") no-repeat scroll 0% 0% transparent;
-    width: 44px;
-    height: 62px;
-    left: 58%;
-    top: 47%;
-}
-
-#tangible {
-    top: 0%;
-    font-size: 1.8em;
-}
-
-#imagenes {
-    left: 2%;
-    top: 13%;
-    font-size: 1.5em;
-}
-
-#interior {
-	z-index:10;
-	right: 33%;
-	top: 27%;
-}
-
-#sueno {
-    left: 5%;
-    top: 44%;
-    font-size: 2em;
-}
-
-#aqui {
-    left: 31%;
-    top: 58%;
-    font-size: 1.5em;
-}
-
-#viajo {
-    right: 42%;
-    top: 69%;
-    font-size: 1.6em;
-    width: 57%;
-}
-
-#imagination {
-    right: 38%;
-    top: 92%;
-    font-size: 1.6em;
-    width: 60%;
-}
-
-#idea {
-    right: 28%;
-    top: 51%;
-    font-size: 1.8em;
-}
-
-#fija {
-    left: 0%;
-    top: 35%;
-    font-size: 1.5em;
-}
-
-#llevar {
-    right: 0%;
-    top: 50%;
-    font-size: 2.3em;
-}
-
-#crecer {
-    top: 68%;
-    font-size: 2.1em;
-}
-
-#avion {
-    top: 20%;
-	left:2%
-}
-
-#ligne-points {
-    left: 4%;
-    top: 26%;
+    font-size: 4em;
+    top: 21%;
+	width:100%;
 }
 
 }

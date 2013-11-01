@@ -389,7 +389,6 @@
 			}
 		},
 
-
 		// Start closing animation if is open; remove immediately if opening/closing
 		close: function (event) {
 			F.cancel();
