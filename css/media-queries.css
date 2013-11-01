@@ -10,7 +10,11 @@
 
 #tronco1{
 	right:0;
-}	
+}
+
+#volet{
+	right:0;
+}
 
 }
 
@@ -22,6 +26,11 @@
 #tronco1{
 	right:0;
 }	
+
+#volet{
+	right:0;
+}
+
 
 #fija {
 	left:40%;
@@ -117,6 +126,11 @@
 #tronco1{
 	right:0;
 }	
+
+#volet{
+	right:0;
+}
+
 
 #fija {
 	left:16%;

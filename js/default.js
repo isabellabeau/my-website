@@ -18,9 +18,11 @@ $(function(){
 	scrollorama.animate('#instrumento',{ delay: 350, duration: 100, property:'opacity', start:1, end:0})
 		.animate('#experiencias',{ delay: 100, duration: 100, property:'opacity', start:1, end:0})
 		.animate('#esencia',{ delay: 10, duration: 100, property:'opacity', start:1, end:0});
-	
-	
-	
+		
+	$("#seed").click(function() {
+    	$("#volet").animate({"height" : "0"}, 2500);
+ 	});	
+		
 	$(window).on('scroll', function() {
 	var $tronc = $('#tronco1');
 	var $raiz1 = $('#raiz-tronco-01');

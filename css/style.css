@@ -73,6 +73,16 @@ a, a:visited{
 	z-index:10;
 }
 
+#volet {
+    position:absolute;
+    right:13%;
+    height:588px;
+    width:326px;
+    background: url(../images/fond1.jpg) 50% bottom no-repeat;
+	
+	z-index:20;
+}
+
 .slides{ height: 1000px; padding: 0; margin: 0; width: 100%; position: relative; margin: 0 auto;}
 
 .slide3{ height: 1000px; padding: 0; margin: 0; width: 100%; position: relative; margin: 0 auto;}
@@ -118,9 +128,11 @@ SLIDE 1
 	top:79%;
 	font-size:2.5em;
 	width:270px;
+	z-index: 20;
 }
 
 #seed {
+	cursor:pointer;
 	position:absolute;
 	right:44%;
 	top:99%;
@@ -698,4 +710,3 @@ SLIDE 7
 }
 .nivel4 {z-index:3;}
 .nivel5 {z-index:4;}
-
