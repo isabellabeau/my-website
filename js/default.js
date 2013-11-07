@@ -1,10 +1,11 @@
 // Mezoo 20131101
 $(function(){
 	
-	var scrollorama = $.scrollorama({ blocks:'#bloc1, #bloc2', enablePin:false});
+	var scrollorama = $.scrollorama({ blocks:'#bloc1, #bloc2, #tronco1', enablePin:false});
 	scrollorama.animate('#idea',{ delay: 600, duration: 100, property:'opacity', start:1, end:0})
 		.animate('#sueno',{ delay: 500, duration: 100, property:'opacity', start:1, end:0})
-		.animate('#fija',{ delay: 450, duration: 100, property:'opacity', start:1, end:0});
+		.animate('#fija',{ delay: 450, duration: 100, property:'opacity', start:1, end:0})
+		.animate('#crecer',{ delay: 450, duration: 100, property:'opacity', start:1, end:0});
 		
 	
 	scrollorama.animate('#imagination',{ delay: 400, duration: 100, property:'opacity', start:1, end:0})

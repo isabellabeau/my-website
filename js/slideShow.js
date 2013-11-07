@@ -11,13 +11,13 @@ $(document).ready(function () {
 		}
 	});
 	
-	parallax.add($("#bloc1"))
-			.add($("#bloc2"))
-			.add($("#bloc3"))
-			.add($("#bloc4"))
-			.add($("#bloc5"))
-			.add($("#bloc6"))
-			.add($("#bloc7"));
+	parallax.add($("#first"))
+			.add($("#second"))
+			.add($("#third"))
+			.add($("#fourth"))
+			.add($("#fifth"))
+			.add($("#sixth"))
+			.add($("#seventh"));
 			
 	parallax.background = $("body");
 	
