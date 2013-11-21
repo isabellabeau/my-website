@@ -241,7 +241,7 @@ img {
 #experiencias {
 	font-size:3.5em;
 	text-align:center;
-	padding:120px 0 100px;
+	padding:156px 0 100px;
 }
 
 #instrumento {
@@ -488,7 +488,7 @@ img {
 #tronco2{
 	width:326px;
 	height:822px;
-	padding-top: 95.5px;
+	padding-top: 71.5px;
 	background: url(../images/tronco1.png) no-repeat scroll 0px 100% transparent;
 	float:right;
 	z-index:1;
@@ -496,7 +496,7 @@ img {
 
 #slide2 {
 	width:100%;
-	height:977px;
+	height:953px;
 	background: url(../images/fond1-1.png) 50% bottom no-repeat #d2c608;
 }
 
@@ -558,6 +558,6 @@ img {
 
 #slide1 {
 	width:100%;
-	height:985px;
+	height:925px;
 	background: url(../images/fond1.jpg) no-repeat;
 }

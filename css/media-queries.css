@@ -10,7 +10,7 @@
 }	
 	
 #fija {
-    padding: 270px 0 80px 116px;
+    padding: 202px 0 80px 116px;
 }	
 	
 #viajo {
@@ -32,7 +32,7 @@
     font-size: 2.6em;
 }	
 	
-#slide2 {
+#slide3 {
     height: 782px;
 }	
 	
@@ -61,6 +61,10 @@
 
 .change{
 	width:97% !important;
+}
+
+#slide2 {
+    height: 941px;
 }
 }
 
@@ -114,14 +118,14 @@
 }	
 	
 #interior {
-    font-size: 1.5em;
-	padding: 36px 0px 0px 200px;
+    font-size: 1.9em;
+	padding: 36px 200px 0px 20px;
 	width: 24%;
 }	
 	
 #imagenes {
-    font-size: 1.6em;
-    padding: 42px 0px 0px 190px;
+    font-size: 1.8em;
+	padding: 42px 65px 0px 12px;
 }	
 	
 #tangible {
@@ -129,7 +133,7 @@
 	padding-bottom:0px;
 }	
 	
-#slide2 {
+#slide3 {
     height: 2880px;
 }	
 	
