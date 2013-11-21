@@ -8,7 +8,6 @@
 #sueno {
     padding: 10px 0px 80px 150px;
 }	
-<<<<<<< HEAD
 	
 #fija {
     padding: 270px 0 80px 116px;
@@ -17,43 +16,16 @@
 #viajo {
     width: 70%;
     padding: 0px 0px 60px 139px;
-=======
-
-#tronco1{
-	right:0;
-}
-
-#volet{
-	right:0;
-}
-
-}
-
-@media screen and (min-width: 981px) and (max-width: 1024px) {
-#tronco2{
-	right:10%;
->>>>>>> 10fe3d1cbc5139a36a8c733d5fff286834cb34a5
 }	
 	
 #interior {
     width: 57%;
     padding: 80px 95px 0px 0px;
 }	
-<<<<<<< HEAD
 	
 #imagenes {
     font-size: 2.2em;
     padding: 60px 10px 10px;
-=======
-
-#volet{
-	right:0;
-}
-
-
-#fija {
-	left:40%;
->>>>>>> 10fe3d1cbc5139a36a8c733d5fff286834cb34a5
 }	
 	
 #tangible {
@@ -107,16 +79,7 @@
     padding: 0px 0px 50px 4px;
     font-size: 1.6em;
 }	
-<<<<<<< HEAD
 	
-=======
-
-#volet{
-	right:0;
-}
-
-
->>>>>>> 10fe3d1cbc5139a36a8c733d5fff286834cb34a5
 #fija {
     padding: 386px 52px 14px 101px;
     font-size: 1.6em;
