@@ -1,0 +1,563 @@
+*{
+	outline: 0;
+}
+
+body {font-size: 75%; line-height: 1;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, select{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display: block;}
+ol, ul{list-style: none;}
+a, a:visited{text-decoration:none;}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+@font-face {
+    font-family:'arsenale_whiteregular'; src: url('../fonts/arsenale_white-webfont.ttf');
+    font-weight:normal;
+    font-style:normal;
+
+}
+.raleway{font-family:'Raleway', sans-serif, Georgia, "Times New Roman", Times, serif;}
+.blanco{color: white;}
+.absolute{position:absolute;}
+.relative{position:relative;}
+.centrage{text-align: center;}
+
+/* 6 */
+
+#logoisabellabeau{
+	margin:10px 0 40px 0  !important;
+}
+
+.textecredits {
+	font-family:'Varela Round', sans-serif, Georgia, "Times New Roman", Times, serif;
+	color:#9595b0;
+	font-size:1.1em;
+	line-height: 25px;
+}
+
+#logotexte {
+	padding-top:8%;
+	font-size:0.9em;
+}
+
+.titre-credits {
+	padding-top:50px;
+	color:#ff2f66;
+	font-size:3.5em;
+	font-family:'arsenale_whiteregular', "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#phrase2 {
+	font-family:'arsenale_whiteregular', "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding-top: 1150px;
+    color:white;
+    font-size: 5.6em;
+	padding-left:18px;
+}
+
+.social{ 
+	width:100%;
+	height:40px;
+	padding-bottom:20px; 
+}
+
+.social ul {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+ }
+ 
+.social li {
+	margin-left:2px;
+	float:left; /*pour IE*/
+}
+ 
+.social ul li a {
+   display:block;
+   float:left;   
+   padding:5px;
+   border:0px;
+}
+ 
+.social ul li a:hover {
+	opacity:0.4;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+#go5:hover{
+	opacity:0.4;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+#go4:hover {
+	opacity:0.4;
+    filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+
+#secret{
+	padding-top:200px;
+	color:white !important;
+	font-size:9.5em !important;
+	line-height:70px;
+}
+
+#slide6-1 {
+	background:url(../images/slide6_1.png);
+	right:131px;
+	top:1110px;
+	width:114px;
+	height:116px;
+}
+
+#slide6-2 {
+	background:url(../images/slide6_2.png);
+	right:311px;
+	top:1469px;
+	width:38px;
+	height:38px;
+}
+
+#slide6-3 {
+	background:url(../images/slide6_3.png);
+	right:322px;
+	top:1443px;
+	width:38px;
+	height:38px;
+	z-index:21 !important;
+}
+
+#slide6-4 {
+	background:url(../images/slide6_4.png);
+	right:299px;
+	top:1452px;
+	width:30px;
+	height:30px;
+	z-index:22 !important;
+}
+
+#slide6-5 {
+	background:url(../images/slide6_5.png);
+	right: 138px;
+	top: 1620px;
+	width:82px;
+	height:104px;
+}
+
+#tronco3 {
+	width:508px;
+	height:1770px;
+	background:url(../images/tronco-house.png) no-repeat;
+	background-position:right bottom;
+	float:right;
+	z-index:1;
+}
+
+#tronco3 p {
+	position:absolute;
+	z-index:20;
+}
+
+#slide6 {
+	width:100%;
+	background: url(../images/fond5.png) left bottom repeat-x, url(../images/fond7.png);
+	z-index:0;
+}
+
+/* 5 */
+
+.CV li{
+ font-family: Arial, sans-serif;
+ font-size:0.8em;
+ color:white;
+ list-style-type: none;
+ background: url(../images/slide5_CV.png) no-repeat scroll 595px center transparent;
+ text-align:right;
+ margin-bottom: 10px;
+} 
+
+.CV li a{
+ color:white;
+}
+
+.CV li a:hover{
+	color:white;
+	opacity:0.2;
+	filter:alpha(opacity=20); /* For IE8 and earlier */
+}
+
+#isabellabeau {
+}
+
+#texte-about {
+	font-family:'Varela Round', sans-serif, Georgia, "Times New Roman", Times, serif;
+	font-size:1.2em;
+	text-align:justify;
+	color:#c2a8c4;
+	line-height:21px;
+	padding-bottom: 20px;
+}
+
+#titre2 {
+	color:#bd2944;
+	font-family: 'Miniver', cursive, Verdana, Geneva, sans-serif;
+	font-size:1.5em;
+}
+
+#titre-aboutme {
+	font-family:'Varela Round', sans-serif, Georgia, "Times New Roman", Times, serif;
+	left:37.5%;
+	text-transform: uppercase;
+	font-size:1.8em;
+	letter-spacing:10px;
+	color:#ff8454;
+	padding: 60px 0 20px;
+}
+
+#slide5 {
+	width:100%;
+	height:646px;
+	background: url(../images/fond5.png) repeat;
+}
+
+
+/* 4 */
+
+.texto-frases2 {
+	font-family:'Raleway', sans-serif, Georgia, "Times New Roman", Times, serif;
+	color:#722777;
+}
+
+#esencia {
+	font-size:4.5em;
+	padding-top: 205px;
+}
+
+#experiencias {
+	font-size:3.5em;
+	text-align:center;
+	padding:120px 0 100px;
+}
+
+#instrumento {
+	font-size:3.2em;
+}
+
+#slide4-1 {
+	background: url(../images/slide4_1.png) no-repeat;
+	width:108px;
+	height:110px;
+	margin: 50px 0 0px 215px;
+}
+
+#slide4-2 {
+	background: url(../images/slide4_2.png) no-repeat;
+	width:147px;
+	height:135px;
+	margin: 170px 0 0 22px;
+}
+
+#slide4-3 {
+	background: url(../images/slide4_3.png) no-repeat;
+	width:77px;
+	height:78px;
+	margin: 90px 0 0 82px;
+}
+
+#tronco4{
+	width:410px;
+	height:824px;
+	background: url(../images/tronco2.png) bottom no-repeat;
+	float:right;
+	z-index:1;
+}
+
+#tronco2 p {
+	position:absolute;
+	z-index:20;
+}
+
+#slide4 {
+	width:100%;
+	height:845px;
+	background: url(../images/fond5.png) left top repeat-x, url(../images/fond3.png) left bottom repeat-x;
+}
+
+
+/* 3 */
+
+
+.project1{
+	position:relative;
+	overflow:hidden;
+	width: 300px;
+	height:200px;
+	-webkit-transition : all 0.3s ease-in;
+	-moz-transition : all 0.3s ease-in;
+	-o-transition :all 0.3s ease-in;
+	transition : all 0.3s ease-in;
+}
+
+.project1 a{ 
+	display:block;
+}
+
+.project1 a .pro-image1{
+	position:relative;
+	margin:0 auto;
+}
+
+.project1 a .pro-image1 img{
+	width: 100%;
+	height:auto;
+   -webkit-transform: scaleY(1);
+   -moz-transform: scaleY(1);
+   -o-transform: scaleY(1);
+   -ms-transform: scaleY(1);
+   transform: scaleY(1);
+   -webkit-transition: all 0.3s ease-in-out;
+   -moz-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+   -ms-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+
+.project1 a:hover .pro-image1 img{
+   -webkit-transform: scale(1.5);
+   -moz-transform: scale(1.5);
+   -o-transform: scale(1.5);
+   -ms-transform: scale(1.5);
+   transform: scale(1.5);
+}
+
+.project1 a .pro-image1 .mask-w1 {
+	width: 0%;
+	height:0%;
+	top:0;
+	left:0;
+	-webkit-transition : all 0.3s ease-in;
+	-moz-transition : all 0.3s ease-in;
+	-o-transition :all 0.3s ease-in;
+	transition : all 0.3s ease-in;
+}
+	
+.project1 a:hover .pro-image1 .mask-w1 {
+	background:rgba(41,41,41,.7) url(../images/mag.png) no-repeat center center;
+	opacity:1;
+}
+
+.project1 a .pro-image1 .mask-w1 {
+	   width: 100%;
+	   height:100%;
+	   position: absolute;
+}
+	
+.project1 a .pro-title1{
+	position:absolute;
+	height:40px;
+	width:100%;
+	top:50%;
+	margin-top:-25px;
+	opacity:0;
+	-webkit-transition : all 0.3s ease-in;
+	-moz-transition : all 0.3s ease-in;
+	-o-transition :all 0.3s ease-in;
+	transition : all 0.3s ease-in;
+}	
+.project1 a:hover .pro-title1{
+	opacity:1;
+}
+.project1 a .pro-title1 h6{
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	color:#fff;
+	line-height:40px;
+	font-size:24px;
+	-webkit-transition : all 0.3s ease-in;
+	-moz-transition : all 0.3s ease-in;
+	-o-transition :all 0.3s ease-in;
+	transition : all 0.3s ease-in;
+}
+
+.filter {
+	font-family: 'Varela Round',sans-serif,Georgia,"Times New Roman",Times,serif;
+    display: inline-block;
+    top: 50px;
+    z-index: 30;
+}
+
+.filter ul {
+    list-style: none outside none;
+}
+
+.filter li {
+    float: left;
+    font-size: 16px;
+    margin-bottom: 0px;
+    padding: 0px 25px;
+    list-style-type: none;
+}
+
+.filter li a {
+	color:white;
+	text-transform: uppercase;
+	transition: all 0.2s ease-out 0s;
+}
+
+.filter li a:hover {
+	color:#DA5049;
+	border-bottom:1px dotted #DA5049;
+}
+
+#slide3 {
+	width:100%;
+	height:1000px;
+	background-color:#d2c608;
+}
+
+/* 2 */
+
+#tangible {
+	font-size: 3.6em;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+#imagenes {
+	font-size: 2.5em;
+	padding-right: 64px;
+	padding: 80px 60px 0;
+}
+
+#ligne-points {
+	width:141px;
+}
+
+#interior {
+	font-size: 2.7em;
+    text-align: center;
+    width: 70%;
+    float: right;
+	padding:80px 66px 0 0;
+}
+
+#avion {
+	width:40px;
+}
+
+#llevar {
+	font-size: 2.3em;
+    padding: 40px 0 80px 80px;
+}
+
+#imagination {
+	font-size:2em;
+	padding-top: 30px;
+	text-align: center;
+}
+
+#raiz-tronco-01 {
+	background: url(../images/raiz-tronco_01.png) no-repeat scroll 0px 100% transparent;
+	width:100px; 
+	height:100px;
+	margin: 166px 0px 79px 129px;
+	z-index:20;
+}
+
+#raiz-tronco-02 {
+	background: url(../images/raiz-tronco_02.png) no-repeat scroll 0px 100% transparent;
+	width:70px; 
+	height:70px;
+	margin: 500px 0 80px 38px;
+	z-index:20;
+}
+
+#raiz-tronco-03 {
+	background: url(../images/raiz-tronco_03.png) no-repeat scroll 0px 100% transparent;
+	width:87px; 
+	height:123px;
+	margin: 655px 0px 120px 190px;
+	z-index:20;
+}
+
+#tronco2{
+	width:326px;
+	height:822px;
+	padding-top: 95.5px;
+	background: url(../images/tronco1.png) no-repeat scroll 0px 100% transparent;
+	float:right;
+	z-index:1;
+}
+
+#slide2 {
+	width:100%;
+	height:977px;
+	background: url(../images/fond1-1.png) 50% bottom no-repeat #d2c608;
+}
+
+
+/* 1 */
+
+#crecer {
+	color:#603362;
+	font-size:3.1em;
+	text-align:center;
+	width:50%;
+	margin: 105px 50px 0px 67px;
+	z-index:20;
+}
+
+#fija {
+	padding: 200px 50px 80px 200px;
+	font-size:2.5em;
+}
+
+#viajo {
+	font-size:2.6em;
+	width:65%;
+	padding: 0 0 60px 120px;
+}
+
+#sueno {
+	padding: 10px 0px 80px 280px;
+	font-size:3.6em;
+}
+
+
+#idea {
+	padding: 30px 0 30px 230px;
+	font-size:3em;
+}
+
+#aqui {
+	padding: 20px 0 0px 500px;
+	font-size:2.5em;
+}
+
+#seed {
+	padding: 408px 0 0 169px;
+}
+
+#first{
+	z-index:20;
+	padding-top:50px;
+}
+
+#tronco1{
+	width:326px;
+	height:600px;
+	background: url(../images/raiz-tronco.png) no-repeat scroll 0px 100% transparent;
+	float:right;
+	z-index:1;
+}
+
+#slide1 {
+	width:100%;
+	height:985px;
+	background: url(../images/fond1.jpg) no-repeat;
+}

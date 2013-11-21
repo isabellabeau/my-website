@@ -1,338 +1,248 @@
-@media screen and (min-width: 1030px) and (max-width: 1280px) {
 
-#tronco3{
-	right:0;
-}
-	
-#tronco2{
-	right:10%;
-}	
 
-#tronco1{
-	right:0;
-}	
-
-}
-
-@media screen and (min-width: 981px) and (max-width: 1024px) {
-#tronco2{
-	right:10%;
-}	
-	
-#tronco1{
-	right:0;
-}	
-
-#fija {
-	left:40%;
-}	
-	
-#imagination {
-	right:41%;
-}
-
-#idea {
-	right:26%;
-}
-	
-#tronco3{
-	right:0;
-}
-	
-	
+@media screen and (min-width: 768px) and (max-width: 959px) {
 #aqui {
-	left:60%;
+    padding: 20px 0px 0px 350px;
 }
-
-#tangible{
-	left:15%;
-}
-
+	
 #sueno {
-	left:28%;
-}
-
-#viajo {
-	font-size:2.3em;
-}
-
-#llevar {
-	right:29%;
-	font-size:1.8em;
-	width:39%;
-}
-
-#interior {
-	right:40%;
-	font-size:2.5em;
-}
-
-#imagenes {
-	font-size:2em;
-	left:0;
+    padding: 10px 0px 80px 150px;
 }	
-
-#instrumento {
-	right:42%;
-	font-size:3em;
-}
-
-#esencia {
-	right:54%;
+	
+#fija {
+    padding: 270px 0 80px 116px;
+}	
+	
+#viajo {
+    width: 70%;
+    padding: 0px 0px 60px 139px;
+}	
+	
+#interior {
+    width: 57%;
+    padding: 80px 95px 0px 0px;
+}	
+	
+#imagenes {
+    font-size: 2.2em;
+    padding: 60px 10px 10px;
+}	
+	
+#tangible {
+    font-size: 2.6em;
+}	
+	
+#slide2 {
+    height: 782px;
+}	
+	
+.filter li {
+    font-size: 14px;
+}	
+	
+.project1 {
+    width: 236px;
+    height: 158px;
+}	
+	
+#secret {
+    padding-top: 130px;
+    font-size: 8.5em !important;
+    line-height: 59px;
 }
 
 #phrase2 {
-	font-size:4.5em;
-	width:60%;
+    font-size: 4.6em;
 }
 
-#textecredits {
-	font-size:1em;
+.CV li {
+    background: url("../images/slide5_CV.png") no-repeat scroll 627px center transparent;
 }
 
+.change{
+	width:97% !important;
+}
 }
 
-
-@media screen and (min-width: 641px) and (max-width: 980px) {
-#go5{
-	top:93%;
-}
-
-#texte-about{
-	font-size:1.1em;
-}
-	
-#slide5-CV{
-	right:22%;
-}
-	
-#CV{
-	right:3.7%;
-}	
-	
-#tronco2{
-	right:10%;
-}	
-	
-#tronco1{
-	right:0;
-}	
-
-#fija {
-	left:16%;
-	font-size:2.2em;
-}	
-	
-#imagination {
-	right:35%;
-}
-
-#idea {
-	right:40%;
-}
-	
-#tronco3{
-	right:0;
-}	
-	
-#aqui {
-	left:45%;
-}
-
-#sueno {
-	left:6%;
-	font-size:3.3em;
-}
-
-#viajo {
-	font-size:2em;
-	left:4%;
-}
-
-#llevar {
-	right:40%;
-	font-size:1.5em;
-	width:36%;
-}
-
-#interior {
-	right:39%;
-	font-size:2.5em;
-}
-
-#imagenes {
-	font-size:2em;
-	left:5%;
-}	
-
-#instrumento {
-	right:39%;
-	font-size:2.4em;
-}
-
-#esencia {
-	right:54%;
-}
-
-#phrase2 {
-	font-size:4em;
-	width:49%;
-	left:5%;
-}
-
-#textecredits {
-	font-size:1em;
-	left:4%;
-	top:32%;
-}
-
-#credits {
-	left:4%;
-	top:26%;
-}
-
-#follow-me{
-	left:4%;
-	top:7%;
-}
-
-#emailme{
-	left:4%;
-	top:14%;
-}
-
-#myblog{
-	left:10%;
-	top:14%;
-}
-
-#facebook{
-	left:16%;
-	top:14%;
-}
-
-#twitter{
-	left:22%;
-	top:14%;
-}
-
-#pinterest{
-	left:28%;
-	top:14%;
-}
-
-#logotexte{
-	font-size:0.8em;
-	top:92%;
-	left:8.5%;
-}
-
-#logoisabellabeau{
-	top:90%;
-	left:2%;
-}
-
-#titre2{
-	left:43%;
-	font-size:1.3em;
-}
-
-#titre-aboutme{
-	left:43%;
-	font-size:1.4em;
-}
-
-#ligne-points{
-	left:5%;
-}
-
-#avion{
-	left:4%;
-}
-
-#tangible{
-	left:4%;
-	font-size:3em;
-	
-}
-
-#filter li {
-	font-size: 1.2em;
-}
-
-
-}
-
-
-/* Smartphones (portrait and landscape) */
 @media screen and (min-width: 320px) and (max-width: 480px) {
-#follow-me{
-	top:4%;
+#aqui {
+    padding: 20px 0px 0px 40px;
+    font-size: 1.5em;
+}	
+	
+#idea {
+    padding: 0px 0px 30px 10px;
+    font-size: 1.8em;
+}	
+	
+#sueno {
+    padding: 0px 0px 50px 4px;
+    font-size: 1.6em;
+}	
+	
+#fija {
+    padding: 386px 52px 14px 101px;
+    font-size: 1.6em;
+    text-align: center;
+}	
+	
+#imagination {
+    font-size: 1.4em;
+    padding-top: 0px;
+    text-align: left;
+    width: 30%;
+}	
+	
+#llevar {
+    font-size: 1.5em;
+    padding: 0px 0px 80px 220px;
+}	
+	
+#viajo {	
+    font-size: 1.6em;
+    padding: 0px 0px 19px 200px;
+	text-align: center;
+	width:40%;
+}	
+	
+#ligne-points {
+    padding: 0 0 0 190px;
+}	
+	
+#avion {
+    padding: 0px 0 0 200px;
+}	
+	
+#interior {
+    font-size: 1.5em;
+	padding: 36px 0px 0px 200px;
+	width: 24%;
+}	
+	
+#imagenes {
+    font-size: 1.6em;
+    padding: 42px 0px 0px 190px;
+}	
+	
+#tangible {
+    font-size:1.8em;
+	padding-bottom:0px;
+}	
+	
+#slide2 {
+    height: 2880px;
+}	
+	
+.project1 {
+    width:100%;
+}	
+	
+.filter li {
+    width: 90%;
+	padding-bottom: 10px;
+}	
+	
+#instrumento {
+    font-size:2em;
+    padding-right:42px;
+}	
+	
+#slide4-3 {
+    right: 78px;
+}	
+	
+#experiencias {
+    font-size:3.2em;
+    padding:120px 75px 100px 0;
+}	
+	
+#esencia {
+    font-size:2.5em;
+}		
+	
+#slide4-1 {
+    right:20px;
 }
 
-#emailme{
-	top:10%;
-}
-
-#myblog {
-    left: 15%;
-    top: 10%;
-}
-
-#facebook {
-    left: 30%;
-    top: 10%;
-}
-
-#twitter {
-    left: 46%;
-    top: 10%;
-}
-
-#pinterest {
-    left: 62%;
-    top: 10%;
-}
-
-#credits {
-    top: 20%;
+#slide4-2 {
+    right: 52px;
 }
 	
-.rosa{
-	font-size:2.5em;
+#tronco2 {
+    width: 137px;
+    background: url("../images/tronco2.png") no-repeat scroll center left transparent;
+}
+	
+#tronco3 {
+    width: 300px;
+    height: 1770px;
+    background: url("../images/tronco-house-iphone.png") no-repeat right bottom;
+}	
+	
+.CV li {
+    background: url("../images/slide5_CV.png") no-repeat scroll 171px center transparent;
+}	
+	
+#titre-aboutme {
+    padding:0 0 20px;
+	font-size: 1.2em;
+}	
+
+#slide4 {
+    height: 946px;
 }
 
-#textecredits{
-	top:25%;
-}
-
-#logotexte{
-	font-size:0.7em;
-	left:0px;
-	top:95%;
-}
-
-.smallslides {
-    height: 600px;
-}
-
-#logoisabellabeau {
-    top: 85%;
-}
-
-#tronco3{
-	right:0;
-	top:33%;
-	width:230px;
-	height:510px;
-	background: url(../images/tronco-house-iphone.png) no-repeat scroll 0px 100% transparent;
-}
-
+#titre2 {
+    padding-bottom: 20px;
+}	
+		
 #phrase2 {
-    font-size: 4em;
-    top: 21%;
-	width:100%;
+    padding-top:1100px;
+    font-size:2.5em;
+    width:55%;
+	padding-left:0;
 }
+
+#slide6-1 {
+    right: 61px;
+    top: 1410px;
+}
+
+#slide6-2 {
+    right: 356px;
+}
+
+#slide6-3 {
+    right: 356px;
+}
+
+#slide6-4 {
+    right: 356px;
+}
+
+#slide6-5 {
+    right: 838px;
+}
+
+#secret {
+    padding-top:70px;
+    color: white !important;
+    font-size: 6em !important;
+    line-height: 41px;
+}
+
+.textecredits{line-height: 25px;}	
+
+.titre-credits {
+    font-size: 2.5em;
+    padding-top: 30px;
+}
+
+#logoisabellabeau{margin:0 !important;}
+
+#logotexte{padding-top:0;}
+
+.row{margin-bottom:0;}
 
 }
 
